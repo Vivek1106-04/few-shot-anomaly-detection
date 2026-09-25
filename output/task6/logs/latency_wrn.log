@@ -1,0 +1,9 @@
+          method     category     k        I-AUROC       P-AUROC           PROrec@tau  ms/img
+       patchcore       bottle     4   0.994+-0.000   0.981+-0.000   0.926+-0.000   1.000    28.0
+           padim       bottle     4   0.967+-0.000   0.977+-0.000   0.922+-0.000   0.937    35.3
+       patchcore        screw     4   0.465+-0.000   0.916+-0.000   0.690+-0.000   0.067    28.0
+           padim        screw     4   0.523+-0.000   0.888+-0.000   0.640+-0.000   0.143    35.2
+       patchcore       carpet     4   0.943+-0.000   0.986+-0.000   0.934+-0.000   0.921    28.5
+           padim       carpet     4   0.996+-0.000   0.979+-0.000   0.933+-0.000   0.978    35.7
+
+Wrote output/task6/latency_wrn.json (6 runs)

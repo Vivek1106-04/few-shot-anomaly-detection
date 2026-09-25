@@ -1,0 +1,33 @@
+          method     category     k        I-AUROC       P-AUROC           PROrec@tau  ms/img
+  patchcore+full       bottle   209   1.000+-0.000   0.982+-0.000   0.930+-0.000     nan   112.5
+      padim+full       bottle   209   1.000+-0.000   0.980+-0.000   0.927+-0.000     nan    74.2
+  patchcore+full        cable   224   0.892+-0.000   0.981+-0.000   0.916+-0.000     nan   183.8
+      padim+full        cable   224   0.863+-0.000   0.930+-0.000   0.835+-0.000     nan    89.1
+  patchcore+full      capsule   219   0.939+-0.000   0.987+-0.000   0.914+-0.000     nan   126.4
+      padim+full      capsule   219   0.899+-0.000   0.975+-0.000   0.872+-0.000     nan    69.1
+  patchcore+full       carpet   280   0.965+-0.000   0.988+-0.000   0.936+-0.000     nan   102.5
+      padim+full       carpet   280   0.994+-0.000   0.984+-0.000   0.936+-0.000     nan    51.6
+  patchcore+full         grid   264   0.708+-0.000   0.964+-0.000   0.861+-0.000     nan    92.4
+      padim+full         grid   264   0.969+-0.000   0.963+-0.000   0.903+-0.000     nan    46.3
+  patchcore+full     hazelnut   391   1.000+-0.000   0.984+-0.000   0.936+-0.000     nan   117.6
+      padim+full     hazelnut   391   0.714+-0.000   0.963+-0.000   0.893+-0.000     nan    46.5
+  patchcore+full      leather   245   0.994+-0.000   0.991+-0.000   0.965+-0.000     nan    87.5
+      padim+full      leather   245   1.000+-0.000   0.984+-0.000   0.958+-0.000     nan    46.4
+  patchcore+full    metal_nut   220   0.994+-0.000   0.980+-0.000   0.913+-0.000     nan    82.2
+      padim+full    metal_nut   220   0.957+-0.000   0.961+-0.000   0.869+-0.000     nan    47.2
+  patchcore+full         pill   267   0.966+-0.000   0.971+-0.000   0.930+-0.000     nan    93.1
+      padim+full         pill   267   0.872+-0.000   0.938+-0.000   0.905+-0.000     nan    46.0
+  patchcore+full        screw   320   0.914+-0.000   0.988+-0.000   0.935+-0.000     nan   100.7
+      padim+full        screw   320   0.746+-0.000   0.966+-0.000   0.876+-0.000     nan    45.6
+  patchcore+full         tile   230   0.945+-0.000   0.949+-0.000   0.829+-0.000     nan    86.2
+      padim+full         tile   230   0.989+-0.000   0.919+-0.000   0.735+-0.000     nan    47.1
+  patchcore+full   toothbrush    60   0.964+-0.000   0.987+-0.000   0.875+-0.000     nan    47.5
+      padim+full   toothbrush    60   0.867+-0.000   0.974+-0.000   0.817+-0.000     nan    42.1
+  patchcore+full   transistor   213   0.927+-0.000   0.970+-0.000   0.935+-0.000     nan    80.5
+      padim+full   transistor   213   0.942+-0.000   0.972+-0.000   0.909+-0.000     nan    47.5
+  patchcore+full         wood   247   0.982+-0.000   0.944+-0.000   0.876+-0.000     nan    90.7
+      padim+full         wood   247   0.969+-0.000   0.899+-0.000   0.789+-0.000     nan    46.5
+  patchcore+full       zipper   240   0.969+-0.000   0.985+-0.000   0.947+-0.000     nan    86.0
+      padim+full       zipper   240   0.941+-0.000   0.972+-0.000   0.905+-0.000     nan    46.0
+
+Wrote output/task6/ceiling.json (30 runs)

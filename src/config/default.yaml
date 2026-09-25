@@ -1,0 +1,14 @@
+# Default sweep. Every field here is written into each result file, so a number
+# in the report can always be traced back to the configuration that produced it.
+dataset: mvtec_ad
+data_root: data/mvtec_anomaly_detection
+categories: []          # empty = every category found in the dataset root
+methods: [patchcore]    # padim and fewshot are added as they are implemented
+backbone: wide_resnet50_2
+k_values: [1, 2, 4, 8, 16, full]
+n_draws: 5              # independent seeded support-set draws per k -> mean +/- std
+seed: 1234
+support_mode: uniform   # uniform | coverage_gap | contaminated  (S11 stress tests)
+n_contaminated: 1
+fpr_budget: 0.10        # operating point: recall is reported at FPR <= this
+output_dir: output

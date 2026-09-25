@@ -1,0 +1,41 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+          method     category     k        I-AUROC       P-AUROC           PROrec@tau  ms/img
+  winclip+visual       candle     1   0.861+-0.043   0.967+-0.005   0.911+-0.007   0.640    78.0
+  winclip+visual       candle     4   0.913+-0.018   0.974+-0.001   0.927+-0.003   0.770    80.1
+  winclip+visual       candle    16   0.928+-0.012   0.978+-0.000   0.935+-0.001   0.853    82.1
+  winclip+visual     capsules     1   0.785+-0.010   0.916+-0.005   0.587+-0.016   0.547    63.1
+  winclip+visual     capsules     4   0.761+-0.033   0.925+-0.007   0.592+-0.008   0.627    56.9
+  winclip+visual     capsules    16   0.796+-0.019   0.939+-0.002   0.607+-0.005   0.533    57.5
+  winclip+visual       cashew     1   0.818+-0.052   0.925+-0.008   0.763+-0.047   0.677    41.7
+  winclip+visual       cashew     4   0.886+-0.015   0.936+-0.003   0.769+-0.008   0.810    40.7
+  winclip+visual       cashew    16   0.872+-0.030   0.940+-0.005   0.737+-0.031   0.730    44.1
+  winclip+visual   chewinggum     1   0.939+-0.010   0.979+-0.000   0.805+-0.008   0.907    41.2
+  winclip+visual   chewinggum     4   0.956+-0.002   0.979+-0.001   0.809+-0.010   0.913    40.3
+  winclip+visual   chewinggum    16   0.957+-0.005   0.979+-0.000   0.811+-0.002   0.903    44.2
+  winclip+visual        fryum     1   0.869+-0.022   0.903+-0.006   0.726+-0.008   0.830    39.4
+  winclip+visual        fryum     4   0.913+-0.024   0.925+-0.003   0.773+-0.011   0.833    38.9
+  winclip+visual        fryum    16   0.941+-0.006   0.933+-0.003   0.782+-0.003   0.883    43.7
+  winclip+visual    macaroni1     1   0.798+-0.017   0.961+-0.001   0.737+-0.007   0.583    39.6
+  winclip+visual    macaroni1     4   0.835+-0.027   0.970+-0.003   0.801+-0.002   0.693    40.0
+  winclip+visual    macaroni1    16   0.863+-0.028   0.982+-0.001   0.863+-0.006   0.670    46.2
+  winclip+visual    macaroni2     1   0.636+-0.043   0.921+-0.012   0.647+-0.012   0.403    44.6
+  winclip+visual    macaroni2     4   0.690+-0.030   0.940+-0.007   0.720+-0.021   0.467    44.3
+  winclip+visual    macaroni2    16   0.687+-0.027   0.936+-0.001   0.716+-0.024   0.340    48.6
+  winclip+visual         pcb1     1   0.706+-0.170   0.961+-0.005   0.738+-0.081   0.237    44.0
+  winclip+visual         pcb1     4   0.831+-0.018   0.984+-0.002   0.788+-0.026   0.607    44.2
+  winclip+visual         pcb1    16   0.903+-0.012   0.985+-0.001   0.833+-0.019   0.860    48.0
+  winclip+visual         pcb2     1   0.695+-0.025   0.925+-0.008   0.644+-0.028   0.413    42.0
+  winclip+visual         pcb2     4   0.804+-0.018   0.954+-0.004   0.715+-0.018   0.623    41.8
+  winclip+visual         pcb2    16   0.880+-0.017   0.962+-0.004   0.738+-0.010   0.640    46.0
+  winclip+visual         pcb3     1   0.743+-0.013   0.959+-0.002   0.738+-0.014   0.480    45.7
+  winclip+visual         pcb3     4   0.860+-0.017   0.971+-0.003   0.783+-0.017   0.733    45.4
+  winclip+visual         pcb3    16   0.917+-0.007   0.979+-0.000   0.809+-0.006   0.853    49.6
+  winclip+visual         pcb4     1   0.947+-0.011   0.928+-0.002   0.703+-0.030   0.780    41.5
+  winclip+visual         pcb4     4   0.906+-0.069   0.954+-0.004   0.779+-0.017   0.780    41.8
+  winclip+visual         pcb4    16   0.958+-0.007   0.966+-0.003   0.819+-0.006   0.940    46.7
+  winclip+visual   pipe_fryum     1   0.975+-0.008   0.971+-0.004   0.927+-0.001   0.950    42.8
+  winclip+visual   pipe_fryum     4   0.981+-0.008   0.976+-0.003   0.937+-0.001   0.960    41.7
+  winclip+visual   pipe_fryum    16   0.985+-0.003   0.979+-0.000   0.940+-0.002   0.953    46.0
+
+Wrote output/task6/visa_visual.json (108 runs)

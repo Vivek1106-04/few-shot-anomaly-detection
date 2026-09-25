@@ -1,0 +1,370 @@
+{
+  "config": {
+    "dataset": "mvtec_ad",
+    "data_root": "data/mvtec_anomaly_detection",
+    "categories": [
+      "bottle",
+      "screw",
+      "carpet"
+    ],
+    "methods": [
+      "winclip"
+    ],
+    "backbone": "clip_vit_b16",
+    "k_values": [
+      4
+    ],
+    "n_draws": 1,
+    "seed": 1234,
+    "support_mode": "uniform",
+    "n_contaminated": 1,
+    "fpr_budget": 0.1,
+    "n_validation": 20,
+    "threshold_rule": "quantile",
+    "augment": 0,
+    "method_parameters": {
+      "winclip": {
+        "language_weight": 0.0
+      }
+    },
+    "tag": "visual",
+    "output_dir": "output",
+    "extras": {}
+  },
+  "summary": {
+    "winclip+visual": {
+      "bottle": {
+        "4": {
+          "I-AUROC": [
+            0.9976190476190476,
+            0.0
+          ],
+          "P-AUROC": [
+            0.9812609554614712,
+            0.0
+          ],
+          "PRO": [
+            0.9306107589072837,
+            0.0
+          ],
+          "pixel-AP": [
+            0.819611406945147,
+            0.0
+          ],
+          "F1-max": [
+            0.9843749999999999,
+            0.0
+          ],
+          "recall@FPR<=0.1": [
+            1.0,
+            0.0
+          ],
+          "threshold": [
+            0.18425513803958893,
+            0.0
+          ],
+          "I-AUROC(top1%)": [
+            0.9968253968253968,
+            0.0
+          ],
+          "recall@tau": [
+            0.9841269841269841,
+            0.0
+          ],
+          "FPR@tau": [
+            0.1,
+            0.0
+          ],
+          "latency_ms": 39.71309045300013,
+          "enrol_ms": 1.8028750018856954,
+          "n_draws": 1,
+          "memory": {
+            "enrol_peak_mb": 13.845637321472168,
+            "score_peak_mb": 3.511286735534668,
+            "reference_mb": 9.1875
+          }
+        }
+      },
+      "screw": {
+        "4": {
+          "I-AUROC": [
+            0.710801393728223,
+            0.0
+          ],
+          "P-AUROC": [
+            0.9475428366647061,
+            0.0
+          ],
+          "PRO": [
+            0.7864329065711766,
+            0.0
+          ],
+          "pixel-AP": [
+            0.14670412833619426,
+            0.0
+          ],
+          "F1-max": [
+            0.8602941176470588,
+            0.0
+          ],
+          "recall@FPR<=0.1": [
+            0.42016806722689076,
+            0.0
+          ],
+          "threshold": [
+            0.21339884400367737,
+            0.0
+          ],
+          "I-AUROC(top1%)": [
+            0.6810821889731502,
+            0.0
+          ],
+          "recall@tau": [
+            0.453781512605042,
+            0.0
+          ],
+          "FPR@tau": [
+            0.17073170731707318,
+            0.0
+          ],
+          "latency_ms": 45.874405125964984,
+          "enrol_ms": 2.2942499999771826,
+          "n_draws": 1,
+          "memory": {
+            "enrol_peak_mb": 13.845637321472168,
+            "score_peak_mb": 3.511286735534668,
+            "reference_mb": 9.1875
+          }
+        }
+      },
+      "carpet": {
+        "4": {
+          "I-AUROC": [
+            0.9931781701444623,
+            0.0
+          ],
+          "P-AUROC": [
+            0.9927203579194449,
+            0.0
+          ],
+          "PRO": [
+            0.9555843189879276,
+            0.0
+          ],
+          "pixel-AP": [
+            0.7923117523381791,
+            0.0
+          ],
+          "F1-max": [
+            0.9777777777777779,
+            0.0
+          ],
+          "recall@FPR<=0.1": [
+            0.9775280898876404,
+            0.0
+          ],
+          "threshold": [
+            0.17971718311309814,
+            0.0
+          ],
+          "I-AUROC(top1%)": [
+            0.9971910112359551,
+            0.0
+          ],
+          "recall@tau": [
+            1.0,
+            0.0
+          ],
+          "FPR@tau": [
+            0.5357142857142857,
+            0.0
+          ],
+          "latency_ms": 45.42486433936695,
+          "enrol_ms": 2.3157499999797437,
+          "n_draws": 1,
+          "memory": {
+            "enrol_peak_mb": 13.845637321472168,
+            "score_peak_mb": 3.511286735534668,
+            "reference_mb": 9.1875
+          }
+        }
+      }
+    }
+  },
+  "runs": [
+    {
+      "method": "winclip+visual",
+      "category": "bottle",
+      "k": 4,
+      "draw": 0,
+      "metrics": {
+        "I-AUROC": 0.9976190476190476,
+        "P-AUROC": 0.9812609554614712,
+        "PRO": 0.9306107589072837,
+        "pixel-AP": 0.819611406945147,
+        "F1-max": 0.9843749999999999,
+        "recall@FPR<=0.1": 1.0,
+        "threshold": 0.18425513803958893,
+        "I-AUROC(top1%)": 0.9968253968253968,
+        "recall@tau": 0.9841269841269841,
+        "FPR@tau": 0.1
+      },
+      "enrol_ms": 1.8028750018856954,
+      "score_ms_per_image": 2.498172228696198,
+      "extract_ms_per_image": 37.21491822430393,
+      "latency_ms": 39.71309045300013,
+      "method_parameters": {
+        "language_weight": 0.0,
+        "language_dim": 512,
+        "n_visual_blocks": 2,
+        "temperature": 100.0,
+        "seed": 1040308188,
+        "augment": 0
+      },
+      "support": {
+        "k": 4,
+        "draw": 0,
+        "seed": 1040308188,
+        "mode": "uniform",
+        "held_out_group": null,
+        "image_ids": [
+          "bottle/train/good/036",
+          "bottle/train/good/080",
+          "bottle/train/good/140",
+          "bottle/train/good/159"
+        ],
+        "contaminated_ids": []
+      },
+      "decision": {
+        "threshold": 0.19960196316242218,
+        "fpr_budget": 0.1,
+        "n_validation": 20,
+        "pixel_threshold": 0.13870474599301832,
+        "low": 0.0006971987895667553,
+        "meets_target": true
+      },
+      "memory": {
+        "enrol_peak_mb": 13.845637321472168,
+        "score_peak_mb": 3.511286735534668,
+        "reference_mb": 9.1875
+      },
+      "stress": {}
+    },
+    {
+      "method": "winclip+visual",
+      "category": "screw",
+      "k": 4,
+      "draw": 0,
+      "metrics": {
+        "I-AUROC": 0.710801393728223,
+        "P-AUROC": 0.9475428366647061,
+        "PRO": 0.7864329065711766,
+        "pixel-AP": 0.14670412833619426,
+        "F1-max": 0.8602941176470588,
+        "recall@FPR<=0.1": 0.42016806722689076,
+        "threshold": 0.21339884400367737,
+        "I-AUROC(top1%)": 0.6810821889731502,
+        "recall@tau": 0.453781512605042,
+        "FPR@tau": 0.17073170731707318
+      },
+      "enrol_ms": 2.2942499999771826,
+      "score_ms_per_image": 2.7068926748825106,
+      "extract_ms_per_image": 43.16751245108247,
+      "latency_ms": 45.874405125964984,
+      "method_parameters": {
+        "language_weight": 0.0,
+        "language_dim": 512,
+        "n_visual_blocks": 2,
+        "temperature": 100.0,
+        "seed": 788515821,
+        "augment": 0
+      },
+      "support": {
+        "k": 4,
+        "draw": 0,
+        "seed": 788515821,
+        "mode": "uniform",
+        "held_out_group": null,
+        "image_ids": [
+          "screw/train/good/037",
+          "screw/train/good/069",
+          "screw/train/good/134",
+          "screw/train/good/213"
+        ],
+        "contaminated_ids": []
+      },
+      "decision": {
+        "threshold": 0.20716938376426697,
+        "fpr_budget": 0.1,
+        "n_validation": 20,
+        "pixel_threshold": 0.1797874235361815,
+        "low": 0.008980373851954937,
+        "meets_target": false
+      },
+      "memory": {
+        "enrol_peak_mb": 13.845637321472168,
+        "score_peak_mb": 3.511286735534668,
+        "reference_mb": 9.1875
+      },
+      "stress": {}
+    },
+    {
+      "method": "winclip+visual",
+      "category": "carpet",
+      "k": 4,
+      "draw": 0,
+      "metrics": {
+        "I-AUROC": 0.9931781701444623,
+        "P-AUROC": 0.9927203579194449,
+        "PRO": 0.9555843189879276,
+        "pixel-AP": 0.7923117523381791,
+        "F1-max": 0.9777777777777779,
+        "recall@FPR<=0.1": 0.9775280898876404,
+        "threshold": 0.17971718311309814,
+        "I-AUROC(top1%)": 0.9971910112359551,
+        "recall@tau": 1.0,
+        "FPR@tau": 0.5357142857142857
+      },
+      "enrol_ms": 2.3157499999797437,
+      "score_ms_per_image": 2.7233767436377496,
+      "extract_ms_per_image": 42.7014875957292,
+      "latency_ms": 45.42486433936695,
+      "method_parameters": {
+        "language_weight": 0.0,
+        "language_dim": 512,
+        "n_visual_blocks": 2,
+        "temperature": 100.0,
+        "seed": 973064669,
+        "augment": 0
+      },
+      "support": {
+        "k": 4,
+        "draw": 0,
+        "seed": 973064669,
+        "mode": "uniform",
+        "held_out_group": null,
+        "image_ids": [
+          "carpet/train/good/008",
+          "carpet/train/good/131",
+          "carpet/train/good/145",
+          "carpet/train/good/199"
+        ],
+        "contaminated_ids": []
+      },
+      "decision": {
+        "threshold": 0.15887577831745148,
+        "fpr_budget": 0.1,
+        "n_validation": 20,
+        "pixel_threshold": 0.13790125370025635,
+        "low": 0.013594058342278004,
+        "meets_target": false
+      },
+      "memory": {
+        "enrol_peak_mb": 13.845637321472168,
+        "score_peak_mb": 3.511286735534668,
+        "reference_mb": 9.1875
+      },
+      "stress": {}
+    }
+  ]
+}

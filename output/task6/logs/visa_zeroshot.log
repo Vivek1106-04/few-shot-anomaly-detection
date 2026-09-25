@@ -1,0 +1,17 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+          method     category     k        I-AUROC       P-AUROC           PROrec@tau  ms/img
+winclip+zeroshot       candle     1   0.697+-0.000   0.876+-0.000   0.839+-0.000   0.290   171.4
+winclip+zeroshot     capsules     1   0.725+-0.000   0.768+-0.000   0.422+-0.000   0.060   121.7
+winclip+zeroshot       cashew     1   0.651+-0.000   0.682+-0.000   0.609+-0.000   0.380   136.8
+winclip+zeroshot   chewinggum     1   0.913+-0.000   0.975+-0.000   0.785+-0.000   0.800   193.5
+winclip+zeroshot        fryum     1   0.852+-0.000   0.707+-0.000   0.609+-0.000   0.500   144.1
+winclip+zeroshot    macaroni1     1   0.772+-0.000   0.938+-0.000   0.735+-0.000   0.640   165.5
+winclip+zeroshot    macaroni2     1   0.447+-0.000   0.870+-0.000   0.470+-0.000   0.130   141.3
+winclip+zeroshot         pcb1     1   0.631+-0.000   0.776+-0.000   0.381+-0.000   0.340   144.9
+winclip+zeroshot         pcb2     1   0.697+-0.000   0.685+-0.000   0.389+-0.000   0.460   379.8
+winclip+zeroshot         pcb3     1   0.638+-0.000   0.766+-0.000   0.507+-0.000   0.340   279.1
+winclip+zeroshot         pcb4     1   0.864+-0.000   0.861+-0.000   0.666+-0.000   0.770   273.9
+winclip+zeroshot   pipe_fryum     1   0.745+-0.000   0.796+-0.000   0.857+-0.000   0.650   275.4
+
+Wrote output/task6/visa_zeroshot.json (12 runs)

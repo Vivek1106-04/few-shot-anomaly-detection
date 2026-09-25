@@ -1,0 +1,6 @@
+          method     category     k        I-AUROC       P-AUROC           PROrec@tau  ms/img
+    winclip+clip       bottle     4   0.964+-0.000   0.913+-0.000   0.826+-0.000   0.857    34.0
+    winclip+clip        screw     4   0.767+-0.000   0.973+-0.000   0.860+-0.000   0.176    44.0
+    winclip+clip       carpet     4   0.957+-0.000   0.970+-0.000   0.908+-0.000   0.966    36.6
+
+Wrote output/task6/latency_clip.json (3 runs)

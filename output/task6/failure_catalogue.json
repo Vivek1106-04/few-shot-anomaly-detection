@@ -1,0 +1,4083 @@
+{
+  "method": "patchcore",
+  "k": 4,
+  "entries": [
+    {
+      "category": "bottle",
+      "image_id": "bottle/test/good/000",
+      "bin": "border artefact",
+      "score": 2.2627296447753906,
+      "threshold": 2.248706102371216
+    },
+    {
+      "category": "bottle",
+      "image_id": "bottle/test/good/006",
+      "bin": "unmodelled normal variation",
+      "score": 3.3420352935791016,
+      "threshold": 2.248706102371216
+    },
+    {
+      "category": "bottle",
+      "image_id": "bottle/test/good/012",
+      "bin": "unmodelled normal variation",
+      "score": 2.2506139278411865,
+      "threshold": 2.248706102371216
+    },
+    {
+      "category": "bottle",
+      "image_id": "bottle/test/good/015",
+      "bin": "unmodelled normal variation",
+      "score": 2.3330492973327637,
+      "threshold": 2.248706102371216
+    },
+    {
+      "category": "bottle",
+      "image_id": "bottle/test/good/016",
+      "bin": "border artefact",
+      "score": 2.28997802734375,
+      "threshold": 2.248706102371216
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/cable_swap/000",
+      "bin": "weak defect",
+      "score": 3.3333661556243896,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/cable_swap/001",
+      "bin": "mislocalised",
+      "score": 3.9260261058807373,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/cable_swap/002",
+      "bin": "weak defect",
+      "score": 3.544921875,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/cable_swap/003",
+      "bin": "weak defect",
+      "score": 3.516169309616089,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/cable_swap/004",
+      "bin": "weak defect",
+      "score": 3.5905210971832275,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/cable_swap/005",
+      "bin": "weak defect",
+      "score": 3.487929582595825,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/cable_swap/006",
+      "bin": "weak defect",
+      "score": 3.4279282093048096,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/cable_swap/007",
+      "bin": "weak defect",
+      "score": 3.424875497817993,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/cable_swap/008",
+      "bin": "weak defect",
+      "score": 3.5935614109039307,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/cable_swap/009",
+      "bin": "mislocalised",
+      "score": 4.866804599761963,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/cable_swap/010",
+      "bin": "weak defect",
+      "score": 3.549856185913086,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/cable_swap/011",
+      "bin": "weak defect",
+      "score": 3.531465768814087,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/cut_inner_insulation/000",
+      "bin": "weak defect",
+      "score": 3.752074956893921,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/cut_inner_insulation/002",
+      "bin": "weak defect",
+      "score": 3.6262545585632324,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/cut_inner_insulation/006",
+      "bin": "weak defect",
+      "score": 3.5491087436676025,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/cut_inner_insulation/008",
+      "bin": "mislocalised",
+      "score": 3.8940398693084717,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/cut_outer_insulation/002",
+      "bin": "mislocalised",
+      "score": 3.919713020324707,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/cut_outer_insulation/003",
+      "bin": "mislocalised",
+      "score": 3.829167127609253,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/cut_outer_insulation/004",
+      "bin": "weak defect",
+      "score": 3.4636852741241455,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/cut_outer_insulation/008",
+      "bin": "weak defect",
+      "score": 3.8133115768432617,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/good/001",
+      "bin": "border artefact",
+      "score": 3.824392795562744,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/good/022",
+      "bin": "border artefact",
+      "score": 3.933669090270996,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/good/028",
+      "bin": "border artefact",
+      "score": 3.8773937225341797,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/good/034",
+      "bin": "border artefact",
+      "score": 4.087399959564209,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/good/050",
+      "bin": "border artefact",
+      "score": 4.337214946746826,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/missing_wire/000",
+      "bin": "weak defect",
+      "score": 3.4461445808410645,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/missing_wire/007",
+      "bin": "weak defect",
+      "score": 3.784186601638794,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/poke_insulation/000",
+      "bin": "mislocalised",
+      "score": 3.871880292892456,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/poke_insulation/002",
+      "bin": "sub-stride defect",
+      "score": 3.773383855819702,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/poke_insulation/003",
+      "bin": "weak defect",
+      "score": 3.4928221702575684,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/poke_insulation/004",
+      "bin": "weak defect",
+      "score": 3.7237226963043213,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/poke_insulation/006",
+      "bin": "weak defect",
+      "score": 3.5808017253875732,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/poke_insulation/007",
+      "bin": "mislocalised",
+      "score": 4.023290634155273,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/poke_insulation/008",
+      "bin": "weak defect",
+      "score": 3.7589058876037598,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "cable",
+      "image_id": "cable/test/poke_insulation/009",
+      "bin": "weak defect",
+      "score": 3.7208468914031982,
+      "threshold": 3.8211474418640137
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/crack/000",
+      "bin": "mislocalised",
+      "score": 2.7466235160827637,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/crack/005",
+      "bin": "weak defect",
+      "score": 2.3727846145629883,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/crack/008",
+      "bin": "sub-stride defect",
+      "score": 2.376863718032837,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/crack/009",
+      "bin": "weak defect",
+      "score": 2.511537551879883,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/crack/013",
+      "bin": "sub-stride defect",
+      "score": 2.441016674041748,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/crack/016",
+      "bin": "sub-stride defect",
+      "score": 2.4338603019714355,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/crack/018",
+      "bin": "mislocalised",
+      "score": 2.756746530532837,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/crack/020",
+      "bin": "sub-stride defect",
+      "score": 2.137310743331909,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/crack/021",
+      "bin": "mislocalised",
+      "score": 2.5557756423950195,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/crack/022",
+      "bin": "sub-stride defect",
+      "score": 2.145009756088257,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/faulty_imprint/001",
+      "bin": "sub-stride defect",
+      "score": 2.1682722568511963,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/faulty_imprint/002",
+      "bin": "sub-stride defect",
+      "score": 2.514242649078369,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/faulty_imprint/003",
+      "bin": "sub-stride defect",
+      "score": 2.028568744659424,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/faulty_imprint/006",
+      "bin": "sub-stride defect",
+      "score": 2.1990151405334473,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/faulty_imprint/007",
+      "bin": "sub-stride defect",
+      "score": 2.344339609146118,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/faulty_imprint/008",
+      "bin": "sub-stride defect",
+      "score": 2.4338459968566895,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/faulty_imprint/009",
+      "bin": "sub-stride defect",
+      "score": 2.228607177734375,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/faulty_imprint/010",
+      "bin": "sub-stride defect",
+      "score": 2.4660470485687256,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/faulty_imprint/011",
+      "bin": "mislocalised",
+      "score": 2.63891863822937,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/faulty_imprint/012",
+      "bin": "weak defect",
+      "score": 2.2733519077301025,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/faulty_imprint/013",
+      "bin": "sub-stride defect",
+      "score": 2.3060057163238525,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/faulty_imprint/014",
+      "bin": "weak defect",
+      "score": 2.513183355331421,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/faulty_imprint/015",
+      "bin": "sub-stride defect",
+      "score": 2.042719841003418,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/faulty_imprint/016",
+      "bin": "sub-stride defect",
+      "score": 2.393886089324951,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/faulty_imprint/017",
+      "bin": "sub-stride defect",
+      "score": 2.4170167446136475,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/faulty_imprint/018",
+      "bin": "mislocalised",
+      "score": 2.8405230045318604,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/faulty_imprint/019",
+      "bin": "mislocalised",
+      "score": 2.571135997772217,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/faulty_imprint/021",
+      "bin": "sub-stride defect",
+      "score": 2.3552396297454834,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/good/001",
+      "bin": "border artefact",
+      "score": 2.622912883758545,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/good/006",
+      "bin": "unmodelled normal variation",
+      "score": 3.0008866786956787,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/good/014",
+      "bin": "unmodelled normal variation",
+      "score": 2.5975089073181152,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/good/021",
+      "bin": "border artefact",
+      "score": 5.711002826690674,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/good/022",
+      "bin": "unmodelled normal variation",
+      "score": 2.848602771759033,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/poke/001",
+      "bin": "mislocalised",
+      "score": 2.9237709045410156,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/poke/002",
+      "bin": "mislocalised",
+      "score": 2.818960189819336,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/poke/003",
+      "bin": "mislocalised",
+      "score": 2.8023312091827393,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/poke/005",
+      "bin": "mislocalised",
+      "score": 2.6736559867858887,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/poke/006",
+      "bin": "sub-stride defect",
+      "score": 2.173661947250366,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/poke/010",
+      "bin": "sub-stride defect",
+      "score": 2.1796371936798096,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/poke/012",
+      "bin": "mislocalised",
+      "score": 2.692335844039917,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/poke/015",
+      "bin": "weak defect",
+      "score": 2.5161380767822266,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/poke/017",
+      "bin": "sub-stride defect",
+      "score": 2.495173215866089,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/poke/018",
+      "bin": "sub-stride defect",
+      "score": 2.370086908340454,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/poke/019",
+      "bin": "mislocalised",
+      "score": 2.5516245365142822,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/poke/020",
+      "bin": "sub-stride defect",
+      "score": 2.348869800567627,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/scratch/000",
+      "bin": "mislocalised",
+      "score": 2.682482957839966,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/scratch/001",
+      "bin": "weak defect",
+      "score": 2.0653111934661865,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/scratch/002",
+      "bin": "mislocalised",
+      "score": 2.6043291091918945,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/scratch/003",
+      "bin": "mislocalised",
+      "score": 3.106553077697754,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/scratch/004",
+      "bin": "mislocalised",
+      "score": 3.2067112922668457,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/scratch/005",
+      "bin": "sub-stride defect",
+      "score": 1.7511727809906006,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/scratch/006",
+      "bin": "weak defect",
+      "score": 2.493245840072632,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/scratch/008",
+      "bin": "mislocalised",
+      "score": 3.4221854209899902,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/scratch/009",
+      "bin": "weak defect",
+      "score": 2.19010066986084,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/scratch/010",
+      "bin": "weak defect",
+      "score": 2.4159302711486816,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/scratch/012",
+      "bin": "mislocalised",
+      "score": 2.755507469177246,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/scratch/013",
+      "bin": "mislocalised",
+      "score": 3.0702064037323,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/scratch/015",
+      "bin": "mislocalised",
+      "score": 2.703735113143921,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/scratch/017",
+      "bin": "weak defect",
+      "score": 1.888732671737671,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/scratch/021",
+      "bin": "weak defect",
+      "score": 2.105933904647827,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/scratch/022",
+      "bin": "weak defect",
+      "score": 2.5103366374969482,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/squeeze/002",
+      "bin": "mislocalised",
+      "score": 3.1354739665985107,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "capsule",
+      "image_id": "capsule/test/squeeze/004",
+      "bin": "weak defect",
+      "score": 2.5163347721099854,
+      "threshold": 2.5286800861358643
+    },
+    {
+      "category": "carpet",
+      "image_id": "carpet/test/color/014",
+      "bin": "mislocalised",
+      "score": 3.162142276763916,
+      "threshold": 2.8590893745422363
+    },
+    {
+      "category": "carpet",
+      "image_id": "carpet/test/cut/008",
+      "bin": "mislocalised",
+      "score": 3.033820629119873,
+      "threshold": 2.8590893745422363
+    },
+    {
+      "category": "carpet",
+      "image_id": "carpet/test/good/016",
+      "bin": "border artefact",
+      "score": 2.9189565181732178,
+      "threshold": 2.8590893745422363
+    },
+    {
+      "category": "carpet",
+      "image_id": "carpet/test/good/019",
+      "bin": "border artefact",
+      "score": 3.116908550262451,
+      "threshold": 2.8590893745422363
+    },
+    {
+      "category": "carpet",
+      "image_id": "carpet/test/hole/000",
+      "bin": "mislocalised",
+      "score": 3.3294167518615723,
+      "threshold": 2.8590893745422363
+    },
+    {
+      "category": "carpet",
+      "image_id": "carpet/test/hole/001",
+      "bin": "weak defect",
+      "score": 2.5327749252319336,
+      "threshold": 2.8590893745422363
+    },
+    {
+      "category": "carpet",
+      "image_id": "carpet/test/metal_contamination/000",
+      "bin": "sub-stride defect",
+      "score": 2.5460660457611084,
+      "threshold": 2.8590893745422363
+    },
+    {
+      "category": "carpet",
+      "image_id": "carpet/test/metal_contamination/001",
+      "bin": "sub-stride defect",
+      "score": 2.6837544441223145,
+      "threshold": 2.8590893745422363
+    },
+    {
+      "category": "carpet",
+      "image_id": "carpet/test/metal_contamination/014",
+      "bin": "mislocalised",
+      "score": 2.9185850620269775,
+      "threshold": 2.8590893745422363
+    },
+    {
+      "category": "carpet",
+      "image_id": "carpet/test/thread/001",
+      "bin": "sub-stride defect",
+      "score": 2.6289010047912598,
+      "threshold": 2.8590893745422363
+    },
+    {
+      "category": "carpet",
+      "image_id": "carpet/test/thread/009",
+      "bin": "sub-stride defect",
+      "score": 2.6241207122802734,
+      "threshold": 2.8590893745422363
+    },
+    {
+      "category": "carpet",
+      "image_id": "carpet/test/thread/014",
+      "bin": "weak defect",
+      "score": 2.753549098968506,
+      "threshold": 2.8590893745422363
+    },
+    {
+      "category": "carpet",
+      "image_id": "carpet/test/thread/015",
+      "bin": "weak defect",
+      "score": 2.5654356479644775,
+      "threshold": 2.8590893745422363
+    },
+    {
+      "category": "carpet",
+      "image_id": "carpet/test/thread/018",
+      "bin": "mislocalised",
+      "score": 3.085888147354126,
+      "threshold": 2.8590893745422363
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/bent/000",
+      "bin": "weak defect",
+      "score": 3.530486583709717,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/bent/001",
+      "bin": "weak defect",
+      "score": 3.988452434539795,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/bent/002",
+      "bin": "mislocalised",
+      "score": 5.40625524520874,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/bent/003",
+      "bin": "weak defect",
+      "score": 4.834036827087402,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/bent/004",
+      "bin": "weak defect",
+      "score": 3.886409282684326,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/bent/005",
+      "bin": "weak defect",
+      "score": 4.8293776512146,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/bent/006",
+      "bin": "weak defect",
+      "score": 4.517341136932373,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/bent/007",
+      "bin": "weak defect",
+      "score": 3.66504168510437,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/bent/008",
+      "bin": "weak defect",
+      "score": 4.746771335601807,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/bent/009",
+      "bin": "mislocalised",
+      "score": 5.070537090301514,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/bent/010",
+      "bin": "weak defect",
+      "score": 4.684657573699951,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/bent/011",
+      "bin": "weak defect",
+      "score": 4.69969367980957,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/broken/000",
+      "bin": "weak defect",
+      "score": 3.6540493965148926,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/broken/001",
+      "bin": "weak defect",
+      "score": 4.356546401977539,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/broken/002",
+      "bin": "sub-stride defect",
+      "score": 3.93501615524292,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/broken/003",
+      "bin": "weak defect",
+      "score": 4.63460636138916,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/broken/004",
+      "bin": "weak defect",
+      "score": 4.064974784851074,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/broken/005",
+      "bin": "weak defect",
+      "score": 4.002948760986328,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/broken/006",
+      "bin": "weak defect",
+      "score": 4.047983646392822,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/broken/007",
+      "bin": "weak defect",
+      "score": 4.564089298248291,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/broken/008",
+      "bin": "weak defect",
+      "score": 3.8504674434661865,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/broken/009",
+      "bin": "weak defect",
+      "score": 4.099422454833984,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/broken/010",
+      "bin": "weak defect",
+      "score": 3.970900774002075,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/broken/011",
+      "bin": "sub-stride defect",
+      "score": 3.8415567874908447,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/glue/000",
+      "bin": "sub-stride defect",
+      "score": 3.6367478370666504,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/glue/001",
+      "bin": "weak defect",
+      "score": 4.082183837890625,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/glue/002",
+      "bin": "weak defect",
+      "score": 3.8088037967681885,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/glue/003",
+      "bin": "weak defect",
+      "score": 3.6108202934265137,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/glue/004",
+      "bin": "weak defect",
+      "score": 4.065371036529541,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/glue/005",
+      "bin": "sub-stride defect",
+      "score": 4.277268409729004,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/glue/006",
+      "bin": "weak defect",
+      "score": 4.2189741134643555,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/glue/007",
+      "bin": "weak defect",
+      "score": 4.718128681182861,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/glue/008",
+      "bin": "sub-stride defect",
+      "score": 4.181203365325928,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/glue/009",
+      "bin": "weak defect",
+      "score": 4.732224941253662,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/glue/010",
+      "bin": "weak defect",
+      "score": 4.572504043579102,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/good/002",
+      "bin": "border artefact",
+      "score": 4.964027404785156,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/metal_contamination/000",
+      "bin": "sub-stride defect",
+      "score": 4.747650146484375,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/metal_contamination/001",
+      "bin": "weak defect",
+      "score": 4.213077068328857,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/metal_contamination/002",
+      "bin": "weak defect",
+      "score": 4.613375663757324,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/metal_contamination/003",
+      "bin": "weak defect",
+      "score": 4.427707195281982,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/metal_contamination/004",
+      "bin": "weak defect",
+      "score": 3.5741729736328125,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/metal_contamination/005",
+      "bin": "weak defect",
+      "score": 4.065715789794922,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/metal_contamination/006",
+      "bin": "sub-stride defect",
+      "score": 3.8447039127349854,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/metal_contamination/007",
+      "bin": "mislocalised",
+      "score": 5.072919845581055,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/metal_contamination/008",
+      "bin": "weak defect",
+      "score": 4.274423122406006,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/metal_contamination/009",
+      "bin": "weak defect",
+      "score": 4.680278778076172,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/metal_contamination/010",
+      "bin": "mislocalised",
+      "score": 4.865020751953125,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/thread/000",
+      "bin": "mislocalised",
+      "score": 4.918078899383545,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/thread/001",
+      "bin": "weak defect",
+      "score": 4.6743340492248535,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/thread/002",
+      "bin": "weak defect",
+      "score": 4.683858394622803,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/thread/003",
+      "bin": "weak defect",
+      "score": 3.931745767593384,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/thread/004",
+      "bin": "weak defect",
+      "score": 3.743189811706543,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/thread/005",
+      "bin": "weak defect",
+      "score": 4.4092183113098145,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/thread/006",
+      "bin": "weak defect",
+      "score": 4.312516212463379,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/thread/007",
+      "bin": "weak defect",
+      "score": 3.9087257385253906,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/thread/008",
+      "bin": "weak defect",
+      "score": 4.3008222579956055,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/thread/009",
+      "bin": "weak defect",
+      "score": 4.679975986480713,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "grid",
+      "image_id": "grid/test/thread/010",
+      "bin": "weak defect",
+      "score": 3.9651882648468018,
+      "threshold": 4.856537342071533
+    },
+    {
+      "category": "hazelnut",
+      "image_id": "hazelnut/test/crack/013",
+      "bin": "mislocalised",
+      "score": 4.013942718505859,
+      "threshold": 3.6062517166137695
+    },
+    {
+      "category": "hazelnut",
+      "image_id": "hazelnut/test/crack/016",
+      "bin": "weak defect",
+      "score": 3.484132766723633,
+      "threshold": 3.6062517166137695
+    },
+    {
+      "category": "hazelnut",
+      "image_id": "hazelnut/test/cut/006",
+      "bin": "weak defect",
+      "score": 3.577151298522949,
+      "threshold": 3.6062517166137695
+    },
+    {
+      "category": "hazelnut",
+      "image_id": "hazelnut/test/good/007",
+      "bin": "unmodelled normal variation",
+      "score": 3.6355783939361572,
+      "threshold": 3.6062517166137695
+    },
+    {
+      "category": "hazelnut",
+      "image_id": "hazelnut/test/good/009",
+      "bin": "unmodelled normal variation",
+      "score": 3.6327338218688965,
+      "threshold": 3.6062517166137695
+    },
+    {
+      "category": "hazelnut",
+      "image_id": "hazelnut/test/good/020",
+      "bin": "unmodelled normal variation",
+      "score": 3.6693904399871826,
+      "threshold": 3.6062517166137695
+    },
+    {
+      "category": "hazelnut",
+      "image_id": "hazelnut/test/good/024",
+      "bin": "unmodelled normal variation",
+      "score": 3.819841146469116,
+      "threshold": 3.6062517166137695
+    },
+    {
+      "category": "hazelnut",
+      "image_id": "hazelnut/test/good/029",
+      "bin": "unmodelled normal variation",
+      "score": 3.6090691089630127,
+      "threshold": 3.6062517166137695
+    },
+    {
+      "category": "hazelnut",
+      "image_id": "hazelnut/test/good/032",
+      "bin": "unmodelled normal variation",
+      "score": 3.615888833999634,
+      "threshold": 3.6062517166137695
+    },
+    {
+      "category": "hazelnut",
+      "image_id": "hazelnut/test/good/036",
+      "bin": "unmodelled normal variation",
+      "score": 3.8276572227478027,
+      "threshold": 3.6062517166137695
+    },
+    {
+      "category": "hazelnut",
+      "image_id": "hazelnut/test/good/037",
+      "bin": "unmodelled normal variation",
+      "score": 3.8102481365203857,
+      "threshold": 3.6062517166137695
+    },
+    {
+      "category": "hazelnut",
+      "image_id": "hazelnut/test/good/039",
+      "bin": "unmodelled normal variation",
+      "score": 3.616746425628662,
+      "threshold": 3.6062517166137695
+    },
+    {
+      "category": "leather",
+      "image_id": "leather/test/color/004",
+      "bin": "weak defect",
+      "score": 2.5809521675109863,
+      "threshold": 2.6300411224365234
+    },
+    {
+      "category": "leather",
+      "image_id": "leather/test/color/006",
+      "bin": "mislocalised",
+      "score": 3.052651882171631,
+      "threshold": 2.6300411224365234
+    },
+    {
+      "category": "leather",
+      "image_id": "leather/test/good/008",
+      "bin": "border artefact",
+      "score": 3.1741180419921875,
+      "threshold": 2.6300411224365234
+    },
+    {
+      "category": "leather",
+      "image_id": "leather/test/good/010",
+      "bin": "border artefact",
+      "score": 2.802952289581299,
+      "threshold": 2.6300411224365234
+    },
+    {
+      "category": "leather",
+      "image_id": "leather/test/good/011",
+      "bin": "border artefact",
+      "score": 2.968193292617798,
+      "threshold": 2.6300411224365234
+    },
+    {
+      "category": "leather",
+      "image_id": "leather/test/good/024",
+      "bin": "border artefact",
+      "score": 3.1156132221221924,
+      "threshold": 2.6300411224365234
+    },
+    {
+      "category": "leather",
+      "image_id": "leather/test/good/025",
+      "bin": "border artefact",
+      "score": 2.7774879932403564,
+      "threshold": 2.6300411224365234
+    },
+    {
+      "category": "leather",
+      "image_id": "leather/test/good/028",
+      "bin": "border artefact",
+      "score": 3.081757068634033,
+      "threshold": 2.6300411224365234
+    },
+    {
+      "category": "leather",
+      "image_id": "leather/test/good/029",
+      "bin": "border artefact",
+      "score": 2.8138742446899414,
+      "threshold": 2.6300411224365234
+    },
+    {
+      "category": "leather",
+      "image_id": "leather/test/good/030",
+      "bin": "border artefact",
+      "score": 2.68461275100708,
+      "threshold": 2.6300411224365234
+    },
+    {
+      "category": "leather",
+      "image_id": "leather/test/good/031",
+      "bin": "border artefact",
+      "score": 2.841783046722412,
+      "threshold": 2.6300411224365234
+    },
+    {
+      "category": "leather",
+      "image_id": "leather/test/poke/004",
+      "bin": "mislocalised",
+      "score": 4.364782333374023,
+      "threshold": 2.6300411224365234
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/bent/002",
+      "bin": "weak defect",
+      "score": 3.580354928970337,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/bent/004",
+      "bin": "weak defect",
+      "score": 3.7110660076141357,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/bent/006",
+      "bin": "weak defect",
+      "score": 3.4653053283691406,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/bent/007",
+      "bin": "weak defect",
+      "score": 3.9726340770721436,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/bent/008",
+      "bin": "weak defect",
+      "score": 3.996570587158203,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/bent/013",
+      "bin": "mislocalised",
+      "score": 4.232659339904785,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/bent/014",
+      "bin": "weak defect",
+      "score": 3.434540033340454,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/bent/015",
+      "bin": "weak defect",
+      "score": 3.6350901126861572,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/bent/018",
+      "bin": "weak defect",
+      "score": 3.9307265281677246,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/bent/023",
+      "bin": "weak defect",
+      "score": 3.6694447994232178,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/color/000",
+      "bin": "weak defect",
+      "score": 3.6553988456726074,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/color/001",
+      "bin": "weak defect",
+      "score": 3.7929015159606934,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/color/004",
+      "bin": "weak defect",
+      "score": 3.061140537261963,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/color/005",
+      "bin": "weak defect",
+      "score": 3.1943092346191406,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/color/006",
+      "bin": "weak defect",
+      "score": 3.937258720397949,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/color/007",
+      "bin": "mislocalised",
+      "score": 4.105564117431641,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/color/008",
+      "bin": "weak defect",
+      "score": 4.008988380432129,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/color/009",
+      "bin": "weak defect",
+      "score": 3.9508681297302246,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/color/011",
+      "bin": "weak defect",
+      "score": 3.8667798042297363,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/color/013",
+      "bin": "weak defect",
+      "score": 3.6909234523773193,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/color/015",
+      "bin": "weak defect",
+      "score": 3.4850661754608154,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/color/016",
+      "bin": "weak defect",
+      "score": 3.918715000152588,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/color/017",
+      "bin": "weak defect",
+      "score": 3.93752121925354,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/color/018",
+      "bin": "weak defect",
+      "score": 3.2976109981536865,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/color/019",
+      "bin": "weak defect",
+      "score": 3.822174072265625,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/color/020",
+      "bin": "weak defect",
+      "score": 3.7190310955047607,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/color/021",
+      "bin": "weak defect",
+      "score": 3.762089729309082,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/flip/021",
+      "bin": "weak defect",
+      "score": 4.016544818878174,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/good/005",
+      "bin": "border artefact",
+      "score": 4.126643180847168,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/scratch/000",
+      "bin": "weak defect",
+      "score": 3.9644999504089355,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/scratch/001",
+      "bin": "weak defect",
+      "score": 3.7896547317504883,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/scratch/002",
+      "bin": "weak defect",
+      "score": 3.6564197540283203,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/scratch/003",
+      "bin": "weak defect",
+      "score": 3.8281185626983643,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/scratch/004",
+      "bin": "weak defect",
+      "score": 3.615518093109131,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/scratch/005",
+      "bin": "weak defect",
+      "score": 3.636667490005493,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/scratch/006",
+      "bin": "weak defect",
+      "score": 3.6410768032073975,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/scratch/007",
+      "bin": "weak defect",
+      "score": 3.862367868423462,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/scratch/010",
+      "bin": "weak defect",
+      "score": 3.862614154815674,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/scratch/012",
+      "bin": "weak defect",
+      "score": 3.5817689895629883,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/scratch/013",
+      "bin": "weak defect",
+      "score": 4.0236287117004395,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/scratch/014",
+      "bin": "weak defect",
+      "score": 4.004458904266357,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/scratch/015",
+      "bin": "weak defect",
+      "score": 3.8374691009521484,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/scratch/016",
+      "bin": "weak defect",
+      "score": 3.7116453647613525,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/scratch/017",
+      "bin": "weak defect",
+      "score": 3.776203155517578,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/scratch/018",
+      "bin": "weak defect",
+      "score": 3.869542360305786,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/scratch/020",
+      "bin": "weak defect",
+      "score": 3.4184558391571045,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/scratch/021",
+      "bin": "weak defect",
+      "score": 3.3206288814544678,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "metal_nut",
+      "image_id": "metal_nut/test/scratch/022",
+      "bin": "weak defect",
+      "score": 3.3923797607421875,
+      "threshold": 4.070354461669922
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/color/000",
+      "bin": "mislocalised",
+      "score": 3.115358352661133,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/color/005",
+      "bin": "weak defect",
+      "score": 2.6264665126800537,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/color/009",
+      "bin": "mislocalised",
+      "score": 4.209714889526367,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/color/010",
+      "bin": "sub-stride defect",
+      "score": 2.5311179161071777,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/color/015",
+      "bin": "sub-stride defect",
+      "score": 2.810138702392578,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/color/018",
+      "bin": "sub-stride defect",
+      "score": 2.776498794555664,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/color/024",
+      "bin": "sub-stride defect",
+      "score": 2.755068063735962,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/combined/001",
+      "bin": "mislocalised",
+      "score": 3.3568036556243896,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/combined/006",
+      "bin": "weak defect",
+      "score": 2.849174976348877,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/combined/007",
+      "bin": "weak defect",
+      "score": 2.753166675567627,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/combined/015",
+      "bin": "weak defect",
+      "score": 2.7142083644866943,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/contamination/001",
+      "bin": "mislocalised",
+      "score": 3.3582568168640137,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/contamination/004",
+      "bin": "weak defect",
+      "score": 2.775153636932373,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/contamination/005",
+      "bin": "weak defect",
+      "score": 2.763805866241455,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/contamination/008",
+      "bin": "weak defect",
+      "score": 2.789889335632324,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/contamination/009",
+      "bin": "weak defect",
+      "score": 2.680436134338379,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/contamination/010",
+      "bin": "weak defect",
+      "score": 2.5922183990478516,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/contamination/013",
+      "bin": "weak defect",
+      "score": 2.627124786376953,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/contamination/019",
+      "bin": "weak defect",
+      "score": 2.713876247406006,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/contamination/020",
+      "bin": "weak defect",
+      "score": 2.6696252822875977,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/000",
+      "bin": "weak defect",
+      "score": 2.726449966430664,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/001",
+      "bin": "weak defect",
+      "score": 2.4310529232025146,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/002",
+      "bin": "mislocalised",
+      "score": 3.028974771499634,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/003",
+      "bin": "sub-stride defect",
+      "score": 2.497412919998169,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/004",
+      "bin": "weak defect",
+      "score": 2.7388381958007812,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/006",
+      "bin": "sub-stride defect",
+      "score": 2.5611257553100586,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/007",
+      "bin": "mislocalised",
+      "score": 2.8855395317077637,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/008",
+      "bin": "weak defect",
+      "score": 2.746826648712158,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/009",
+      "bin": "weak defect",
+      "score": 2.791015386581421,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/010",
+      "bin": "weak defect",
+      "score": 2.6300902366638184,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/011",
+      "bin": "mislocalised",
+      "score": 3.3111319541931152,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/013",
+      "bin": "mislocalised",
+      "score": 3.195401906967163,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/014",
+      "bin": "mislocalised",
+      "score": 3.207336902618408,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/015",
+      "bin": "mislocalised",
+      "score": 3.0655863285064697,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/016",
+      "bin": "sub-stride defect",
+      "score": 2.433138847351074,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/017",
+      "bin": "weak defect",
+      "score": 2.8654487133026123,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/018",
+      "bin": "weak defect",
+      "score": 2.8446547985076904,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/019",
+      "bin": "weak defect",
+      "score": 2.6418612003326416,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/020",
+      "bin": "weak defect",
+      "score": 2.733147621154785,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/021",
+      "bin": "weak defect",
+      "score": 2.7015700340270996,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/022",
+      "bin": "weak defect",
+      "score": 2.788519859313965,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/023",
+      "bin": "weak defect",
+      "score": 2.8683109283447266,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/024",
+      "bin": "weak defect",
+      "score": 2.477799654006958,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/crack/025",
+      "bin": "sub-stride defect",
+      "score": 2.815633535385132,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/faulty_imprint/000",
+      "bin": "weak defect",
+      "score": 2.784496545791626,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/faulty_imprint/001",
+      "bin": "weak defect",
+      "score": 2.7955780029296875,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/faulty_imprint/002",
+      "bin": "weak defect",
+      "score": 2.8303494453430176,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/faulty_imprint/003",
+      "bin": "mislocalised",
+      "score": 3.136352062225342,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/faulty_imprint/004",
+      "bin": "weak defect",
+      "score": 2.7513248920440674,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/faulty_imprint/005",
+      "bin": "weak defect",
+      "score": 2.8168203830718994,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/faulty_imprint/007",
+      "bin": "weak defect",
+      "score": 2.833010673522949,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/faulty_imprint/008",
+      "bin": "weak defect",
+      "score": 2.7675232887268066,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/faulty_imprint/011",
+      "bin": "weak defect",
+      "score": 2.865539312362671,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/faulty_imprint/012",
+      "bin": "weak defect",
+      "score": 2.7117819786071777,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/faulty_imprint/013",
+      "bin": "weak defect",
+      "score": 2.814347505569458,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/good/019",
+      "bin": "unmodelled normal variation",
+      "score": 3.1347038745880127,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/good/023",
+      "bin": "unmodelled normal variation",
+      "score": 3.0592448711395264,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/scratch/001",
+      "bin": "weak defect",
+      "score": 2.593170166015625,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/scratch/002",
+      "bin": "weak defect",
+      "score": 2.8369216918945312,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/scratch/003",
+      "bin": "weak defect",
+      "score": 2.832082748413086,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/scratch/004",
+      "bin": "weak defect",
+      "score": 2.85664439201355,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/scratch/005",
+      "bin": "weak defect",
+      "score": 2.536278247833252,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/scratch/006",
+      "bin": "sub-stride defect",
+      "score": 2.630803108215332,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/scratch/007",
+      "bin": "weak defect",
+      "score": 2.778709888458252,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/scratch/008",
+      "bin": "weak defect",
+      "score": 2.7515876293182373,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/scratch/013",
+      "bin": "weak defect",
+      "score": 2.8049590587615967,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/scratch/015",
+      "bin": "mislocalised",
+      "score": 3.0442938804626465,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/scratch/016",
+      "bin": "weak defect",
+      "score": 2.691774606704712,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/scratch/020",
+      "bin": "weak defect",
+      "score": 2.7400424480438232,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/scratch/022",
+      "bin": "weak defect",
+      "score": 2.6326522827148438,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "pill",
+      "image_id": "pill/test/scratch/023",
+      "bin": "weak defect",
+      "score": 2.83004093170166,
+      "threshold": 2.8712916374206543
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/good/004",
+      "bin": "border artefact",
+      "score": 4.850643157958984,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/good/014",
+      "bin": "border artefact",
+      "score": 4.897220611572266,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/good/022",
+      "bin": "border artefact",
+      "score": 4.869846343994141,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/good/023",
+      "bin": "border artefact",
+      "score": 4.994691848754883,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/good/024",
+      "bin": "unmodelled normal variation",
+      "score": 4.7143402099609375,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/good/029",
+      "bin": "border artefact",
+      "score": 5.007973670959473,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/000",
+      "bin": "sub-stride defect",
+      "score": 3.3939194679260254,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/001",
+      "bin": "sub-stride defect",
+      "score": 3.8289337158203125,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/002",
+      "bin": "sub-stride defect",
+      "score": 3.9947938919067383,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/003",
+      "bin": "weak defect",
+      "score": 2.979618549346924,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/004",
+      "bin": "sub-stride defect",
+      "score": 2.9229884147644043,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/005",
+      "bin": "sub-stride defect",
+      "score": 3.8094840049743652,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/006",
+      "bin": "sub-stride defect",
+      "score": 4.225305080413818,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/007",
+      "bin": "weak defect",
+      "score": 4.579034805297852,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/008",
+      "bin": "mislocalised",
+      "score": 5.021507740020752,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/009",
+      "bin": "weak defect",
+      "score": 4.042754650115967,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/010",
+      "bin": "sub-stride defect",
+      "score": 3.774933338165283,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/011",
+      "bin": "sub-stride defect",
+      "score": 3.404589891433716,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/012",
+      "bin": "sub-stride defect",
+      "score": 3.486586570739746,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/013",
+      "bin": "sub-stride defect",
+      "score": 3.8843677043914795,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/014",
+      "bin": "sub-stride defect",
+      "score": 2.6393673419952393,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/015",
+      "bin": "weak defect",
+      "score": 4.346217155456543,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/016",
+      "bin": "weak defect",
+      "score": 3.5284783840179443,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/017",
+      "bin": "sub-stride defect",
+      "score": 2.9609265327453613,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/018",
+      "bin": "sub-stride defect",
+      "score": 4.554716110229492,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/019",
+      "bin": "sub-stride defect",
+      "score": 4.290884017944336,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/020",
+      "bin": "sub-stride defect",
+      "score": 3.5052783489227295,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/021",
+      "bin": "sub-stride defect",
+      "score": 2.684816837310791,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/022",
+      "bin": "sub-stride defect",
+      "score": 3.0347723960876465,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/manipulated_front/023",
+      "bin": "sub-stride defect",
+      "score": 4.679789066314697,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/000",
+      "bin": "sub-stride defect",
+      "score": 3.7939224243164062,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/001",
+      "bin": "sub-stride defect",
+      "score": 3.430689573287964,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/002",
+      "bin": "sub-stride defect",
+      "score": 4.129110336303711,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/003",
+      "bin": "sub-stride defect",
+      "score": 3.0878543853759766,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/004",
+      "bin": "sub-stride defect",
+      "score": 3.330371141433716,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/005",
+      "bin": "sub-stride defect",
+      "score": 2.7829556465148926,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/006",
+      "bin": "sub-stride defect",
+      "score": 2.653717517852783,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/007",
+      "bin": "sub-stride defect",
+      "score": 4.485342502593994,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/008",
+      "bin": "sub-stride defect",
+      "score": 4.123861312866211,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/009",
+      "bin": "sub-stride defect",
+      "score": 4.287136077880859,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/010",
+      "bin": "mislocalised",
+      "score": 4.709604740142822,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/011",
+      "bin": "sub-stride defect",
+      "score": 3.0746612548828125,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/012",
+      "bin": "sub-stride defect",
+      "score": 3.80149245262146,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/013",
+      "bin": "sub-stride defect",
+      "score": 2.7469756603240967,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/014",
+      "bin": "sub-stride defect",
+      "score": 4.455916404724121,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/015",
+      "bin": "sub-stride defect",
+      "score": 3.6432106494903564,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/016",
+      "bin": "sub-stride defect",
+      "score": 3.0248141288757324,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/017",
+      "bin": "sub-stride defect",
+      "score": 3.522820472717285,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/018",
+      "bin": "sub-stride defect",
+      "score": 4.41444730758667,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/019",
+      "bin": "sub-stride defect",
+      "score": 3.1119332313537598,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/020",
+      "bin": "sub-stride defect",
+      "score": 4.415635585784912,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/021",
+      "bin": "sub-stride defect",
+      "score": 4.591109752655029,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/022",
+      "bin": "sub-stride defect",
+      "score": 4.310550689697266,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_head/023",
+      "bin": "sub-stride defect",
+      "score": 2.577075719833374,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/000",
+      "bin": "sub-stride defect",
+      "score": 4.1477179527282715,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/001",
+      "bin": "weak defect",
+      "score": 4.133642196655273,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/002",
+      "bin": "sub-stride defect",
+      "score": 4.166182518005371,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/003",
+      "bin": "sub-stride defect",
+      "score": 3.826402425765991,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/004",
+      "bin": "sub-stride defect",
+      "score": 4.4718804359436035,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/005",
+      "bin": "sub-stride defect",
+      "score": 2.913494110107422,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/006",
+      "bin": "mislocalised",
+      "score": 4.915595054626465,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/007",
+      "bin": "sub-stride defect",
+      "score": 3.802485942840576,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/008",
+      "bin": "weak defect",
+      "score": 4.388554096221924,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/009",
+      "bin": "sub-stride defect",
+      "score": 4.613033294677734,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/010",
+      "bin": "weak defect",
+      "score": 3.838716983795166,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/011",
+      "bin": "sub-stride defect",
+      "score": 2.485926866531372,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/012",
+      "bin": "sub-stride defect",
+      "score": 4.159883975982666,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/013",
+      "bin": "mislocalised",
+      "score": 4.729135036468506,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/014",
+      "bin": "sub-stride defect",
+      "score": 2.9542393684387207,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/015",
+      "bin": "sub-stride defect",
+      "score": 3.997758388519287,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/016",
+      "bin": "sub-stride defect",
+      "score": 3.4279987812042236,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/017",
+      "bin": "sub-stride defect",
+      "score": 4.109552383422852,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/018",
+      "bin": "sub-stride defect",
+      "score": 3.4202260971069336,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/019",
+      "bin": "weak defect",
+      "score": 3.3979685306549072,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/020",
+      "bin": "weak defect",
+      "score": 3.87510085105896,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/021",
+      "bin": "sub-stride defect",
+      "score": 4.609461307525635,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/022",
+      "bin": "sub-stride defect",
+      "score": 2.8157429695129395,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/023",
+      "bin": "sub-stride defect",
+      "score": 3.8346567153930664,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/scratch_neck/024",
+      "bin": "mislocalised",
+      "score": 4.789045333862305,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/000",
+      "bin": "mislocalised",
+      "score": 4.940861225128174,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/001",
+      "bin": "weak defect",
+      "score": 4.176141262054443,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/002",
+      "bin": "sub-stride defect",
+      "score": 3.6376349925994873,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/003",
+      "bin": "sub-stride defect",
+      "score": 4.465764999389648,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/004",
+      "bin": "sub-stride defect",
+      "score": 2.106729507446289,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/005",
+      "bin": "sub-stride defect",
+      "score": 4.0671916007995605,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/006",
+      "bin": "weak defect",
+      "score": 4.018507957458496,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/007",
+      "bin": "sub-stride defect",
+      "score": 2.895529270172119,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/008",
+      "bin": "sub-stride defect",
+      "score": 4.588411808013916,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/009",
+      "bin": "sub-stride defect",
+      "score": 2.284480094909668,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/010",
+      "bin": "sub-stride defect",
+      "score": 4.355976104736328,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/011",
+      "bin": "sub-stride defect",
+      "score": 2.581526517868042,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/012",
+      "bin": "weak defect",
+      "score": 4.66519832611084,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/013",
+      "bin": "sub-stride defect",
+      "score": 2.8777666091918945,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/014",
+      "bin": "sub-stride defect",
+      "score": 3.556666851043701,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/015",
+      "bin": "sub-stride defect",
+      "score": 2.6555862426757812,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/016",
+      "bin": "weak defect",
+      "score": 4.064523220062256,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/017",
+      "bin": "sub-stride defect",
+      "score": 4.319886207580566,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/018",
+      "bin": "sub-stride defect",
+      "score": 3.2267837524414062,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/019",
+      "bin": "sub-stride defect",
+      "score": 3.575575113296509,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/020",
+      "bin": "sub-stride defect",
+      "score": 4.222438812255859,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/021",
+      "bin": "sub-stride defect",
+      "score": 4.225823402404785,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_side/022",
+      "bin": "sub-stride defect",
+      "score": 4.558681011199951,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/000",
+      "bin": "weak defect",
+      "score": 2.723106622695923,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/001",
+      "bin": "weak defect",
+      "score": 4.25935697555542,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/002",
+      "bin": "weak defect",
+      "score": 4.611492156982422,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/003",
+      "bin": "weak defect",
+      "score": 2.8308379650115967,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/004",
+      "bin": "mislocalised",
+      "score": 4.707372665405273,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/005",
+      "bin": "weak defect",
+      "score": 3.7360196113586426,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/006",
+      "bin": "weak defect",
+      "score": 4.268243789672852,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/007",
+      "bin": "weak defect",
+      "score": 3.6751527786254883,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/008",
+      "bin": "weak defect",
+      "score": 3.6349587440490723,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/009",
+      "bin": "sub-stride defect",
+      "score": 2.4386837482452393,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/010",
+      "bin": "weak defect",
+      "score": 2.915529251098633,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/011",
+      "bin": "weak defect",
+      "score": 4.519013404846191,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/012",
+      "bin": "sub-stride defect",
+      "score": 3.536109685897827,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/013",
+      "bin": "sub-stride defect",
+      "score": 4.15104341506958,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/014",
+      "bin": "weak defect",
+      "score": 4.3059234619140625,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/015",
+      "bin": "sub-stride defect",
+      "score": 3.2021360397338867,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/016",
+      "bin": "weak defect",
+      "score": 4.457870960235596,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/017",
+      "bin": "sub-stride defect",
+      "score": 3.6139180660247803,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/018",
+      "bin": "weak defect",
+      "score": 3.4790148735046387,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/019",
+      "bin": "weak defect",
+      "score": 3.5466525554656982,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/020",
+      "bin": "mislocalised",
+      "score": 4.97679328918457,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/021",
+      "bin": "weak defect",
+      "score": 4.133293628692627,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "screw",
+      "image_id": "screw/test/thread_top/022",
+      "bin": "sub-stride defect",
+      "score": 3.580364227294922,
+      "threshold": 4.703769207000732
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/crack/008",
+      "bin": "mislocalised",
+      "score": 4.2517547607421875,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/crack/015",
+      "bin": "weak defect",
+      "score": 3.3852031230926514,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/good/009",
+      "bin": "border artefact",
+      "score": 3.461946725845337,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/good/013",
+      "bin": "border artefact",
+      "score": 3.5809829235076904,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/good/017",
+      "bin": "border artefact",
+      "score": 3.6632540225982666,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/good/020",
+      "bin": "border artefact",
+      "score": 3.432596206665039,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/good/023",
+      "bin": "border artefact",
+      "score": 3.499624729156494,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/good/024",
+      "bin": "border artefact",
+      "score": 3.4714901447296143,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/good/027",
+      "bin": "border artefact",
+      "score": 3.5346574783325195,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/good/030",
+      "bin": "border artefact",
+      "score": 3.47078275680542,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/gray_stroke/000",
+      "bin": "mislocalised",
+      "score": 3.499807357788086,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/gray_stroke/001",
+      "bin": "mislocalised",
+      "score": 3.4729108810424805,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/gray_stroke/003",
+      "bin": "weak defect",
+      "score": 3.155447244644165,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/gray_stroke/005",
+      "bin": "mislocalised",
+      "score": 3.482553243637085,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/gray_stroke/006",
+      "bin": "weak defect",
+      "score": 3.130648374557495,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/gray_stroke/007",
+      "bin": "mislocalised",
+      "score": 4.2108001708984375,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/gray_stroke/008",
+      "bin": "weak defect",
+      "score": 3.3090031147003174,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/gray_stroke/009",
+      "bin": "weak defect",
+      "score": 3.365617513656616,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/gray_stroke/010",
+      "bin": "weak defect",
+      "score": 3.152829170227051,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/gray_stroke/012",
+      "bin": "mislocalised",
+      "score": 3.57315993309021,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/oil/005",
+      "bin": "weak defect",
+      "score": 3.4139981269836426,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/oil/006",
+      "bin": "mislocalised",
+      "score": 3.739570379257202,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/oil/007",
+      "bin": "weak defect",
+      "score": 3.416111707687378,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/oil/015",
+      "bin": "mislocalised",
+      "score": 3.804673194885254,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/oil/016",
+      "bin": "weak defect",
+      "score": 3.270261287689209,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/oil/017",
+      "bin": "mislocalised",
+      "score": 3.5092227458953857,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/rough/000",
+      "bin": "weak defect",
+      "score": 3.1370434761047363,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/rough/001",
+      "bin": "weak defect",
+      "score": 3.384819507598877,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/rough/002",
+      "bin": "weak defect",
+      "score": 3.0278847217559814,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/rough/003",
+      "bin": "weak defect",
+      "score": 3.272573471069336,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/rough/004",
+      "bin": "mislocalised",
+      "score": 3.5816526412963867,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "tile",
+      "image_id": "tile/test/rough/010",
+      "bin": "mislocalised",
+      "score": 3.7050957679748535,
+      "threshold": 3.4320485591888428
+    },
+    {
+      "category": "toothbrush",
+      "image_id": "toothbrush/test/defective/001",
+      "bin": "weak defect",
+      "score": 2.7621824741363525,
+      "threshold": 3.3454103469848633
+    },
+    {
+      "category": "toothbrush",
+      "image_id": "toothbrush/test/defective/003",
+      "bin": "weak defect",
+      "score": 2.6747171878814697,
+      "threshold": 3.3454103469848633
+    },
+    {
+      "category": "toothbrush",
+      "image_id": "toothbrush/test/defective/004",
+      "bin": "sub-stride defect",
+      "score": 2.619119882583618,
+      "threshold": 3.3454103469848633
+    },
+    {
+      "category": "toothbrush",
+      "image_id": "toothbrush/test/defective/006",
+      "bin": "weak defect",
+      "score": 2.9628138542175293,
+      "threshold": 3.3454103469848633
+    },
+    {
+      "category": "toothbrush",
+      "image_id": "toothbrush/test/defective/009",
+      "bin": "weak defect",
+      "score": 3.312371015548706,
+      "threshold": 3.3454103469848633
+    },
+    {
+      "category": "toothbrush",
+      "image_id": "toothbrush/test/defective/011",
+      "bin": "mislocalised",
+      "score": 3.790776252746582,
+      "threshold": 3.3454103469848633
+    },
+    {
+      "category": "toothbrush",
+      "image_id": "toothbrush/test/defective/013",
+      "bin": "weak defect",
+      "score": 2.798764228820801,
+      "threshold": 3.3454103469848633
+    },
+    {
+      "category": "toothbrush",
+      "image_id": "toothbrush/test/defective/015",
+      "bin": "weak defect",
+      "score": 3.139890193939209,
+      "threshold": 3.3454103469848633
+    },
+    {
+      "category": "toothbrush",
+      "image_id": "toothbrush/test/defective/018",
+      "bin": "mislocalised",
+      "score": 3.919691562652588,
+      "threshold": 3.3454103469848633
+    },
+    {
+      "category": "toothbrush",
+      "image_id": "toothbrush/test/defective/020",
+      "bin": "mislocalised",
+      "score": 4.024274826049805,
+      "threshold": 3.3454103469848633
+    },
+    {
+      "category": "toothbrush",
+      "image_id": "toothbrush/test/defective/021",
+      "bin": "mislocalised",
+      "score": 3.5927786827087402,
+      "threshold": 3.3454103469848633
+    },
+    {
+      "category": "toothbrush",
+      "image_id": "toothbrush/test/defective/024",
+      "bin": "mislocalised",
+      "score": 4.26455020904541,
+      "threshold": 3.3454103469848633
+    },
+    {
+      "category": "toothbrush",
+      "image_id": "toothbrush/test/defective/027",
+      "bin": "mislocalised",
+      "score": 3.6562554836273193,
+      "threshold": 3.3454103469848633
+    },
+    {
+      "category": "toothbrush",
+      "image_id": "toothbrush/test/defective/028",
+      "bin": "mislocalised",
+      "score": 3.6996357440948486,
+      "threshold": 3.3454103469848633
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/bent_lead/001",
+      "bin": "sub-stride defect",
+      "score": 3.334775447845459,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/bent_lead/002",
+      "bin": "weak defect",
+      "score": 3.6919326782226562,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/bent_lead/003",
+      "bin": "weak defect",
+      "score": 3.194347620010376,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/bent_lead/005",
+      "bin": "weak defect",
+      "score": 3.8150014877319336,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/bent_lead/008",
+      "bin": "weak defect",
+      "score": 3.436922311782837,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/cut_lead/000",
+      "bin": "weak defect",
+      "score": 3.54298996925354,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/cut_lead/001",
+      "bin": "weak defect",
+      "score": 3.2238736152648926,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/cut_lead/002",
+      "bin": "weak defect",
+      "score": 3.340893507003784,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/cut_lead/003",
+      "bin": "weak defect",
+      "score": 3.3560662269592285,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/cut_lead/004",
+      "bin": "mislocalised",
+      "score": 4.188931941986084,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/cut_lead/005",
+      "bin": "weak defect",
+      "score": 3.5723752975463867,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/cut_lead/006",
+      "bin": "weak defect",
+      "score": 3.3381073474884033,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/cut_lead/007",
+      "bin": "weak defect",
+      "score": 3.4533026218414307,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/cut_lead/008",
+      "bin": "weak defect",
+      "score": 3.191913366317749,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/cut_lead/009",
+      "bin": "weak defect",
+      "score": 3.5037617683410645,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/damaged_case/000",
+      "bin": "weak defect",
+      "score": 3.660590648651123,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/damaged_case/001",
+      "bin": "weak defect",
+      "score": 3.7706828117370605,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/damaged_case/002",
+      "bin": "mislocalised",
+      "score": 4.092685222625732,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/damaged_case/003",
+      "bin": "weak defect",
+      "score": 3.6974992752075195,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/damaged_case/004",
+      "bin": "weak defect",
+      "score": 3.4480228424072266,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/damaged_case/005",
+      "bin": "weak defect",
+      "score": 3.533784866333008,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/damaged_case/006",
+      "bin": "weak defect",
+      "score": 3.434255361557007,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/damaged_case/007",
+      "bin": "weak defect",
+      "score": 3.1997389793395996,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/good/006",
+      "bin": "border artefact",
+      "score": 4.224294185638428,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/good/014",
+      "bin": "border artefact",
+      "score": 4.730665683746338,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/good/017",
+      "bin": "border artefact",
+      "score": 4.35433292388916,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/good/024",
+      "bin": "border artefact",
+      "score": 4.426858425140381,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/good/032",
+      "bin": "border artefact",
+      "score": 4.7150044441223145,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/good/036",
+      "bin": "border artefact",
+      "score": 4.878859996795654,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/misplaced/000",
+      "bin": "weak defect",
+      "score": 3.3441050052642822,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/misplaced/002",
+      "bin": "weak defect",
+      "score": 3.1347410678863525,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/misplaced/003",
+      "bin": "weak defect",
+      "score": 3.031644582748413,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/misplaced/004",
+      "bin": "mislocalised",
+      "score": 4.239517688751221,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "transistor",
+      "image_id": "transistor/test/misplaced/006",
+      "bin": "weak defect",
+      "score": 3.805241823196411,
+      "threshold": 3.894449234008789
+    },
+    {
+      "category": "wood",
+      "image_id": "wood/test/color/003",
+      "bin": "mislocalised",
+      "score": 4.175902843475342,
+      "threshold": 3.0753986835479736
+    },
+    {
+      "category": "wood",
+      "image_id": "wood/test/good/005",
+      "bin": "border artefact",
+      "score": 3.1092429161071777,
+      "threshold": 3.0753986835479736
+    },
+    {
+      "category": "wood",
+      "image_id": "wood/test/good/011",
+      "bin": "border artefact",
+      "score": 3.1551012992858887,
+      "threshold": 3.0753986835479736
+    },
+    {
+      "category": "wood",
+      "image_id": "wood/test/good/012",
+      "bin": "border artefact",
+      "score": 3.1704375743865967,
+      "threshold": 3.0753986835479736
+    },
+    {
+      "category": "wood",
+      "image_id": "wood/test/good/013",
+      "bin": "border artefact",
+      "score": 3.10609769821167,
+      "threshold": 3.0753986835479736
+    },
+    {
+      "category": "wood",
+      "image_id": "wood/test/good/015",
+      "bin": "border artefact",
+      "score": 3.0786073207855225,
+      "threshold": 3.0753986835479736
+    },
+    {
+      "category": "wood",
+      "image_id": "wood/test/good/017",
+      "bin": "border artefact",
+      "score": 3.5734944343566895,
+      "threshold": 3.0753986835479736
+    },
+    {
+      "category": "wood",
+      "image_id": "wood/test/hole/003",
+      "bin": "mislocalised",
+      "score": 4.188980579376221,
+      "threshold": 3.0753986835479736
+    },
+    {
+      "category": "wood",
+      "image_id": "wood/test/hole/005",
+      "bin": "weak defect",
+      "score": 3.0694022178649902,
+      "threshold": 3.0753986835479736
+    },
+    {
+      "category": "wood",
+      "image_id": "wood/test/hole/006",
+      "bin": "mislocalised",
+      "score": 3.108006238937378,
+      "threshold": 3.0753986835479736
+    },
+    {
+      "category": "wood",
+      "image_id": "wood/test/scratch/001",
+      "bin": "weak defect",
+      "score": 3.0214617252349854,
+      "threshold": 3.0753986835479736
+    },
+    {
+      "category": "wood",
+      "image_id": "wood/test/scratch/012",
+      "bin": "mislocalised",
+      "score": 3.1995255947113037,
+      "threshold": 3.0753986835479736
+    },
+    {
+      "category": "wood",
+      "image_id": "wood/test/scratch/014",
+      "bin": "mislocalised",
+      "score": 3.6238372325897217,
+      "threshold": 3.0753986835479736
+    },
+    {
+      "category": "wood",
+      "image_id": "wood/test/scratch/019",
+      "bin": "mislocalised",
+      "score": 3.8750343322753906,
+      "threshold": 3.0753986835479736
+    },
+    {
+      "category": "wood",
+      "image_id": "wood/test/scratch/020",
+      "bin": "mislocalised",
+      "score": 3.4645674228668213,
+      "threshold": 3.0753986835479736
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/broken_teeth/000",
+      "bin": "mislocalised",
+      "score": 2.6745409965515137,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/broken_teeth/002",
+      "bin": "weak defect",
+      "score": 2.310642957687378,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/broken_teeth/004",
+      "bin": "weak defect",
+      "score": 2.6033201217651367,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/broken_teeth/005",
+      "bin": "weak defect",
+      "score": 2.5612213611602783,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/broken_teeth/008",
+      "bin": "mislocalised",
+      "score": 2.815645456314087,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/broken_teeth/012",
+      "bin": "weak defect",
+      "score": 2.5161640644073486,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/broken_teeth/014",
+      "bin": "weak defect",
+      "score": 2.5750656127929688,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/broken_teeth/016",
+      "bin": "mislocalised",
+      "score": 2.768007278442383,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/combined/007",
+      "bin": "weak defect",
+      "score": 2.5952043533325195,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/combined/008",
+      "bin": "weak defect",
+      "score": 2.4780044555664062,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/fabric_border/002",
+      "bin": "mislocalised",
+      "score": 2.713224172592163,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/fabric_border/011",
+      "bin": "mislocalised",
+      "score": 3.477647304534912,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/fabric_interior/000",
+      "bin": "mislocalised",
+      "score": 2.696309804916382,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/fabric_interior/001",
+      "bin": "weak defect",
+      "score": 2.450870990753174,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/fabric_interior/002",
+      "bin": "mislocalised",
+      "score": 2.683145761489868,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/fabric_interior/005",
+      "bin": "weak defect",
+      "score": 2.330756902694702,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/fabric_interior/007",
+      "bin": "sub-stride defect",
+      "score": 2.4346539974212646,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/fabric_interior/009",
+      "bin": "weak defect",
+      "score": 2.4872946739196777,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/fabric_interior/011",
+      "bin": "weak defect",
+      "score": 2.47887921333313,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/fabric_interior/012",
+      "bin": "weak defect",
+      "score": 2.273383617401123,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/fabric_interior/015",
+      "bin": "weak defect",
+      "score": 2.5864548683166504,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/good/007",
+      "bin": "border artefact",
+      "score": 2.9056360721588135,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/good/018",
+      "bin": "border artefact",
+      "score": 2.7241828441619873,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/good/021",
+      "bin": "border artefact",
+      "score": 3.048800230026245,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/good/022",
+      "bin": "border artefact",
+      "score": 3.917106866836548,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/good/027",
+      "bin": "border artefact",
+      "score": 2.6852521896362305,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/rough/000",
+      "bin": "mislocalised",
+      "score": 3.110339879989624,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/rough/007",
+      "bin": "mislocalised",
+      "score": 2.655111789703369,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/rough/008",
+      "bin": "mislocalised",
+      "score": 2.755484104156494,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/split_teeth/000",
+      "bin": "mislocalised",
+      "score": 2.8555760383605957,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/split_teeth/003",
+      "bin": "mislocalised",
+      "score": 3.327712297439575,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/split_teeth/006",
+      "bin": "mislocalised",
+      "score": 2.716226577758789,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/split_teeth/008",
+      "bin": "weak defect",
+      "score": 2.580946207046509,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/squeezed_teeth/004",
+      "bin": "weak defect",
+      "score": 2.3676676750183105,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/squeezed_teeth/005",
+      "bin": "weak defect",
+      "score": 2.5321717262268066,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/squeezed_teeth/006",
+      "bin": "mislocalised",
+      "score": 2.735830068588257,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/squeezed_teeth/007",
+      "bin": "weak defect",
+      "score": 2.431055784225464,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/squeezed_teeth/008",
+      "bin": "weak defect",
+      "score": 2.5957324504852295,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/squeezed_teeth/009",
+      "bin": "weak defect",
+      "score": 2.42795991897583,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/squeezed_teeth/012",
+      "bin": "mislocalised",
+      "score": 2.668872594833374,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/squeezed_teeth/013",
+      "bin": "mislocalised",
+      "score": 3.2214410305023193,
+      "threshold": 2.634788751602173
+    },
+    {
+      "category": "zipper",
+      "image_id": "zipper/test/squeezed_teeth/015",
+      "bin": "mislocalised",
+      "score": 3.2106122970581055,
+      "threshold": 2.634788751602173
+    }
+  ],
+  "test_images": {
+    "bottle": 83,
+    "cable": 150,
+    "capsule": 132,
+    "carpet": 117,
+    "grid": 78,
+    "hazelnut": 110,
+    "leather": 124,
+    "metal_nut": 115,
+    "pill": 167,
+    "screw": 160,
+    "tile": 117,
+    "toothbrush": 42,
+    "transistor": 100,
+    "wood": 79,
+    "zipper": 151
+  }
+}

@@ -1,0 +1,1319 @@
+{
+  "config": {
+    "dataset": "visa",
+    "data_root": "data/visa",
+    "categories": [],
+    "methods": [
+      "winclip"
+    ],
+    "backbone": "clip_vit_b16",
+    "k_values": [
+      1
+    ],
+    "n_draws": 1,
+    "seed": 1234,
+    "support_mode": "uniform",
+    "n_contaminated": 1,
+    "fpr_budget": 0.1,
+    "n_validation": 20,
+    "augment": 0,
+    "method_parameters": {
+      "winclip": {
+        "language_weight": 1.0
+      }
+    },
+    "tag": "zeroshot",
+    "output_dir": "output",
+    "extras": {}
+  },
+  "summary": {
+    "winclip+zeroshot": {
+      "candle": {
+        "1": {
+          "I-AUROC": [
+            0.6974,
+            0.0
+          ],
+          "P-AUROC": [
+            0.8757365961442325,
+            0.0
+          ],
+          "PRO": [
+            0.8391999266613861,
+            0.0
+          ],
+          "pixel-AP": [
+            0.06509596269027976,
+            0.0
+          ],
+          "F1-max": [
+            0.6842105263157896,
+            0.0
+          ],
+          "recall@FPR<=0.1": [
+            0.46,
+            0.0
+          ],
+          "threshold": [
+            0.7356705665588379,
+            0.0
+          ],
+          "I-AUROC(top1%)": [
+            0.6865,
+            0.0
+          ],
+          "recall@tau": [
+            0.29,
+            0.0
+          ],
+          "FPR@tau": [
+            0.02,
+            0.0
+          ],
+          "latency_ms": 171.3991790256451,
+          "enrol_ms": 3.800166000473837,
+          "n_draws": 1,
+          "memory": {
+            "enrol_peak_mb": 3.509699821472168,
+            "score_peak_mb": 0.7677268981933594,
+            "reference_mb": 2.296875
+          }
+        }
+      },
+      "capsules": {
+        "1": {
+          "I-AUROC": [
+            0.7246666666666667,
+            0.0
+          ],
+          "P-AUROC": [
+            0.7681716145578751,
+            0.0
+          ],
+          "PRO": [
+            0.42241974397878046,
+            0.0
+          ],
+          "pixel-AP": [
+            0.04801174800425784,
+            0.0
+          ],
+          "F1-max": [
+            0.7772511848341231,
+            0.0
+          ],
+          "recall@FPR<=0.1": [
+            0.4,
+            0.0
+          ],
+          "threshold": [
+            0.5912137627601624,
+            0.0
+          ],
+          "I-AUROC(top1%)": [
+            0.7376666666666667,
+            0.0
+          ],
+          "recall@tau": [
+            0.06,
+            0.0
+          ],
+          "FPR@tau": [
+            0.0,
+            0.0
+          ],
+          "latency_ms": 121.65302936695966,
+          "enrol_ms": 0.9396659997946699,
+          "n_draws": 1,
+          "memory": {
+            "enrol_peak_mb": 3.509699821472168,
+            "score_peak_mb": 0.7677268981933594,
+            "reference_mb": 2.296875
+          }
+        }
+      },
+      "cashew": {
+        "1": {
+          "I-AUROC": [
+            0.6514,
+            0.0
+          ],
+          "P-AUROC": [
+            0.6823682215988129,
+            0.0
+          ],
+          "PRO": [
+            0.6094933222683114,
+            0.0
+          ],
+          "pixel-AP": [
+            0.08309945151069428,
+            0.0
+          ],
+          "F1-max": [
+            0.8081632653061224,
+            0.0
+          ],
+          "recall@FPR<=0.1": [
+            0.39,
+            0.0
+          ],
+          "threshold": [
+            0.6600077152252197,
+            0.0
+          ],
+          "I-AUROC(top1%)": [
+            0.6364,
+            0.0
+          ],
+          "recall@tau": [
+            0.38,
+            0.0
+          ],
+          "FPR@tau": [
+            0.06,
+            0.0
+          ],
+          "latency_ms": 136.76012119766588,
+          "enrol_ms": 1.0900420002144529,
+          "n_draws": 1,
+          "memory": {
+            "enrol_peak_mb": 3.509699821472168,
+            "score_peak_mb": 0.7677268981933594,
+            "reference_mb": 2.296875
+          }
+        }
+      },
+      "chewinggum": {
+        "1": {
+          "I-AUROC": [
+            0.9126,
+            0.0
+          ],
+          "P-AUROC": [
+            0.9747874162249159,
+            0.0
+          ],
+          "PRO": [
+            0.7848656443064396,
+            0.0
+          ],
+          "pixel-AP": [
+            0.5207516147441347,
+            0.0
+          ],
+          "F1-max": [
+            0.8820512820512821,
+            0.0
+          ],
+          "recall@FPR<=0.1": [
+            0.8,
+            0.0
+          ],
+          "threshold": [
+            0.64044189453125,
+            0.0
+          ],
+          "I-AUROC(top1%)": [
+            0.9324,
+            0.0
+          ],
+          "recall@tau": [
+            0.8,
+            0.0
+          ],
+          "FPR@tau": [
+            0.14,
+            0.0
+          ],
+          "latency_ms": 193.51861372398156,
+          "enrol_ms": 0.95354099994438,
+          "n_draws": 1,
+          "memory": {
+            "enrol_peak_mb": 3.509699821472168,
+            "score_peak_mb": 0.7677268981933594,
+            "reference_mb": 2.296875
+          }
+        }
+      },
+      "fryum": {
+        "1": {
+          "I-AUROC": [
+            0.8516,
+            0.0
+          ],
+          "P-AUROC": [
+            0.707215605699584,
+            0.0
+          ],
+          "PRO": [
+            0.6086467949966837,
+            0.0
+          ],
+          "pixel-AP": [
+            0.1345879596321091,
+            0.0
+          ],
+          "F1-max": [
+            0.8454545454545456,
+            0.0
+          ],
+          "recall@FPR<=0.1": [
+            0.61,
+            0.0
+          ],
+          "threshold": [
+            0.6850683689117432,
+            0.0
+          ],
+          "I-AUROC(top1%)": [
+            0.854,
+            0.0
+          ],
+          "recall@tau": [
+            0.5,
+            0.0
+          ],
+          "FPR@tau": [
+            0.0,
+            0.0
+          ],
+          "latency_ms": 144.07989919271557,
+          "enrol_ms": 2.2363749994838145,
+          "n_draws": 1,
+          "memory": {
+            "enrol_peak_mb": 3.509699821472168,
+            "score_peak_mb": 0.7677268981933594,
+            "reference_mb": 2.296875
+          }
+        }
+      },
+      "macaroni1": {
+        "1": {
+          "I-AUROC": [
+            0.7719,
+            0.0
+          ],
+          "P-AUROC": [
+            0.9382988266908181,
+            0.0
+          ],
+          "PRO": [
+            0.7345901809553855,
+            0.0
+          ],
+          "pixel-AP": [
+            0.08524513190890359,
+            0.0
+          ],
+          "F1-max": [
+            0.7443946188340806,
+            0.0
+          ],
+          "recall@FPR<=0.1": [
+            0.39,
+            0.0
+          ],
+          "threshold": [
+            0.8619819283485413,
+            0.0
+          ],
+          "I-AUROC(top1%)": [
+            0.7836,
+            0.0
+          ],
+          "recall@tau": [
+            0.64,
+            0.0
+          ],
+          "FPR@tau": [
+            0.23,
+            0.0
+          ],
+          "latency_ms": 165.5280685220983,
+          "enrol_ms": 1.647708999371389,
+          "n_draws": 1,
+          "memory": {
+            "enrol_peak_mb": 3.509699821472168,
+            "score_peak_mb": 0.7677268981933594,
+            "reference_mb": 2.296875
+          }
+        }
+      },
+      "macaroni2": {
+        "1": {
+          "I-AUROC": [
+            0.4466,
+            0.0
+          ],
+          "P-AUROC": [
+            0.8698994023609834,
+            0.0
+          ],
+          "PRO": [
+            0.4695397372725711,
+            0.0
+          ],
+          "pixel-AP": [
+            0.0040256434071453545,
+            0.0
+          ],
+          "F1-max": [
+            0.6666666666666667,
+            0.0
+          ],
+          "recall@FPR<=0.1": [
+            0.05,
+            0.0
+          ],
+          "threshold": [
+            0.9809248447418213,
+            0.0
+          ],
+          "I-AUROC(top1%)": [
+            0.4404,
+            0.0
+          ],
+          "recall@tau": [
+            0.13,
+            0.0
+          ],
+          "FPR@tau": [
+            0.24,
+            0.0
+          ],
+          "latency_ms": 141.2894523498958,
+          "enrol_ms": 1.0338749998481944,
+          "n_draws": 1,
+          "memory": {
+            "enrol_peak_mb": 3.509699821472168,
+            "score_peak_mb": 0.7677268981933594,
+            "reference_mb": 2.296875
+          }
+        }
+      },
+      "pcb1": {
+        "1": {
+          "I-AUROC": [
+            0.6314,
+            0.0
+          ],
+          "P-AUROC": [
+            0.7757943040223726,
+            0.0
+          ],
+          "PRO": [
+            0.3812336354572038,
+            0.0
+          ],
+          "pixel-AP": [
+            0.1283151673655476,
+            0.0
+          ],
+          "F1-max": [
+            0.6666666666666666,
+            0.0
+          ],
+          "recall@FPR<=0.1": [
+            0.35,
+            0.0
+          ],
+          "threshold": [
+            0.7853246331214905,
+            0.0
+          ],
+          "I-AUROC(top1%)": [
+            0.6148,
+            0.0
+          ],
+          "recall@tau": [
+            0.34,
+            0.0
+          ],
+          "FPR@tau": [
+            0.08,
+            0.0
+          ],
+          "latency_ms": 144.941603424555,
+          "enrol_ms": 1.5657909998481045,
+          "n_draws": 1,
+          "memory": {
+            "enrol_peak_mb": 3.509699821472168,
+            "score_peak_mb": 0.7677268981933594,
+            "reference_mb": 2.296875
+          }
+        }
+      },
+      "pcb2": {
+        "1": {
+          "I-AUROC": [
+            0.6974,
+            0.0
+          ],
+          "P-AUROC": [
+            0.6853104639027366,
+            0.0
+          ],
+          "PRO": [
+            0.3892411068646201,
+            0.0
+          ],
+          "pixel-AP": [
+            0.029479568932997913,
+            0.0
+          ],
+          "F1-max": [
+            0.6986899563318777,
+            0.0
+          ],
+          "recall@FPR<=0.1": [
+            0.33,
+            0.0
+          ],
+          "threshold": [
+            0.8836140036582947,
+            0.0
+          ],
+          "I-AUROC(top1%)": [
+            0.7197,
+            0.0
+          ],
+          "recall@tau": [
+            0.46,
+            0.0
+          ],
+          "FPR@tau": [
+            0.22,
+            0.0
+          ],
+          "latency_ms": 379.8068434477059,
+          "enrol_ms": 1.7841669996414566,
+          "n_draws": 1,
+          "memory": {
+            "enrol_peak_mb": 3.509699821472168,
+            "score_peak_mb": 0.7677268981933594,
+            "reference_mb": 2.296875
+          }
+        }
+      },
+      "pcb3": {
+        "1": {
+          "I-AUROC": [
+            0.6378217821782178,
+            0.0
+          ],
+          "P-AUROC": [
+            0.7656467240093996,
+            0.0
+          ],
+          "PRO": [
+            0.5070107124923355,
+            0.0
+          ],
+          "pixel-AP": [
+            0.022259674045841758,
+            0.0
+          ],
+          "F1-max": [
+            0.6716981132075471,
+            0.0
+          ],
+          "recall@FPR<=0.1": [
+            0.28,
+            0.0
+          ],
+          "threshold": [
+            0.8507218956947327,
+            0.0
+          ],
+          "I-AUROC(top1%)": [
+            0.67,
+            0.0
+          ],
+          "recall@tau": [
+            0.34,
+            0.0
+          ],
+          "FPR@tau": [
+            0.1782178217821782,
+            0.0
+          ],
+          "latency_ms": 279.1410959666453,
+          "enrol_ms": 2.1372920000430895,
+          "n_draws": 1,
+          "memory": {
+            "enrol_peak_mb": 3.509699821472168,
+            "score_peak_mb": 0.7677268981933594,
+            "reference_mb": 2.296875
+          }
+        }
+      },
+      "pcb4": {
+        "1": {
+          "I-AUROC": [
+            0.8643564356435643,
+            0.0
+          ],
+          "P-AUROC": [
+            0.8609019076356769,
+            0.0
+          ],
+          "PRO": [
+            0.6662150492569933,
+            0.0
+          ],
+          "pixel-AP": [
+            0.17736524423401018,
+            0.0
+          ],
+          "F1-max": [
+            0.8043478260869565,
+            0.0
+          ],
+          "recall@FPR<=0.1": [
+            0.74,
+            0.0
+          ],
+          "threshold": [
+            0.8823680877685547,
+            0.0
+          ],
+          "I-AUROC(top1%)": [
+            0.878019801980198,
+            0.0
+          ],
+          "recall@tau": [
+            0.77,
+            0.0
+          ],
+          "FPR@tau": [
+            0.1782178217821782,
+            0.0
+          ],
+          "latency_ms": 273.9066343628287,
+          "enrol_ms": 3.7602920001518214,
+          "n_draws": 1,
+          "memory": {
+            "enrol_peak_mb": 3.509699821472168,
+            "score_peak_mb": 0.7677268981933594,
+            "reference_mb": 2.296875
+          }
+        }
+      },
+      "pipe_fryum": {
+        "1": {
+          "I-AUROC": [
+            0.7448,
+            0.0
+          ],
+          "P-AUROC": [
+            0.7958966089837418,
+            0.0
+          ],
+          "PRO": [
+            0.8567316141394826,
+            0.0
+          ],
+          "pixel-AP": [
+            0.0697639972871522,
+            0.0
+          ],
+          "F1-max": [
+            0.8189655172413793,
+            0.0
+          ],
+          "recall@FPR<=0.1": [
+            0.47,
+            0.0
+          ],
+          "threshold": [
+            0.7058827877044678,
+            0.0
+          ],
+          "I-AUROC(top1%)": [
+            0.7798,
+            0.0
+          ],
+          "recall@tau": [
+            0.65,
+            0.0
+          ],
+          "FPR@tau": [
+            0.32,
+            0.0
+          ],
+          "latency_ms": 275.3882233982227,
+          "enrol_ms": 1.1976249998042476,
+          "n_draws": 1,
+          "memory": {
+            "enrol_peak_mb": 3.509699821472168,
+            "score_peak_mb": 0.7677268981933594,
+            "reference_mb": 2.296875
+          }
+        }
+      }
+    }
+  },
+  "runs": [
+    {
+      "method": "winclip+zeroshot",
+      "category": "candle",
+      "k": 1,
+      "draw": 0,
+      "metrics": {
+        "I-AUROC": 0.6974,
+        "P-AUROC": 0.8757365961442325,
+        "PRO": 0.8391999266613861,
+        "pixel-AP": 0.06509596269027976,
+        "F1-max": 0.6842105263157896,
+        "recall@FPR<=0.1": 0.46,
+        "threshold": 0.7356705665588379,
+        "I-AUROC(top1%)": 0.6865,
+        "recall@tau": 0.29,
+        "FPR@tau": 0.02
+      },
+      "enrol_ms": 3.800166000473837,
+      "score_ms_per_image": 0.9615530799419503,
+      "extract_ms_per_image": 170.43762594570316,
+      "latency_ms": 171.3991790256451,
+      "method_parameters": {
+        "language_weight": 1.0,
+        "language_dim": 512,
+        "n_visual_blocks": 2,
+        "temperature": 100.0,
+        "seed": 771475642,
+        "augment": 0
+      },
+      "support": {
+        "k": 1,
+        "draw": 0,
+        "seed": 771475642,
+        "mode": "uniform",
+        "held_out_group": null,
+        "image_ids": [
+          "candle/train/good/0837"
+        ],
+        "contaminated_ids": []
+      },
+      "decision": {
+        "threshold": 0.7863849401473999,
+        "fpr_budget": 0.1,
+        "n_validation": 20,
+        "pixel_threshold": 0.6350179034471513,
+        "low": 0.032494958490133286,
+        "meets_target": false
+      },
+      "memory": {
+        "enrol_peak_mb": 3.509699821472168,
+        "score_peak_mb": 0.7677268981933594,
+        "reference_mb": 2.296875
+      },
+      "stress": {}
+    },
+    {
+      "method": "winclip+zeroshot",
+      "category": "capsules",
+      "k": 1,
+      "draw": 0,
+      "metrics": {
+        "I-AUROC": 0.7246666666666667,
+        "P-AUROC": 0.7681716145578751,
+        "PRO": 0.42241974397878046,
+        "pixel-AP": 0.04801174800425784,
+        "F1-max": 0.7772511848341231,
+        "recall@FPR<=0.1": 0.4,
+        "threshold": 0.5912137627601624,
+        "I-AUROC(top1%)": 0.7376666666666667,
+        "recall@tau": 0.06,
+        "FPR@tau": 0.0
+      },
+      "enrol_ms": 0.9396659997946699,
+      "score_ms_per_image": 0.6637075437481599,
+      "extract_ms_per_image": 120.9893218232115,
+      "latency_ms": 121.65302936695966,
+      "method_parameters": {
+        "language_weight": 1.0,
+        "language_dim": 512,
+        "n_visual_blocks": 2,
+        "temperature": 100.0,
+        "seed": 1023264954,
+        "augment": 0
+      },
+      "support": {
+        "k": 1,
+        "draw": 0,
+        "seed": 1023264954,
+        "mode": "uniform",
+        "held_out_group": null,
+        "image_ids": [
+          "capsules/train/good/574"
+        ],
+        "contaminated_ids": []
+      },
+      "decision": {
+        "threshold": 0.701135516166687,
+        "fpr_budget": 0.1,
+        "n_validation": 20,
+        "pixel_threshold": 0.40901543319225386,
+        "low": 0.04240289703011513,
+        "meets_target": false
+      },
+      "memory": {
+        "enrol_peak_mb": 3.509699821472168,
+        "score_peak_mb": 0.7677268981933594,
+        "reference_mb": 2.296875
+      },
+      "stress": {}
+    },
+    {
+      "method": "winclip+zeroshot",
+      "category": "cashew",
+      "k": 1,
+      "draw": 0,
+      "metrics": {
+        "I-AUROC": 0.6514,
+        "P-AUROC": 0.6823682215988129,
+        "PRO": 0.6094933222683114,
+        "pixel-AP": 0.08309945151069428,
+        "F1-max": 0.8081632653061224,
+        "recall@FPR<=0.1": 0.39,
+        "threshold": 0.6600077152252197,
+        "I-AUROC(top1%)": 0.6364,
+        "recall@tau": 0.38,
+        "FPR@tau": 0.06
+      },
+      "enrol_ms": 1.0900420002144529,
+      "score_ms_per_image": 0.6426558000021032,
+      "extract_ms_per_image": 136.11746539766378,
+      "latency_ms": 136.76012119766588,
+      "method_parameters": {
+        "language_weight": 1.0,
+        "language_dim": 512,
+        "n_visual_blocks": 2,
+        "temperature": 100.0,
+        "seed": 838912186,
+        "augment": 0
+      },
+      "support": {
+        "k": 1,
+        "draw": 0,
+        "seed": 838912186,
+        "mode": "uniform",
+        "held_out_group": null,
+        "image_ids": [
+          "cashew/train/good/382"
+        ],
+        "contaminated_ids": []
+      },
+      "decision": {
+        "threshold": 0.6656567454338074,
+        "fpr_budget": 0.1,
+        "n_validation": 20,
+        "pixel_threshold": 0.5566614779829984,
+        "low": 0.09262549877166748,
+        "meets_target": false
+      },
+      "memory": {
+        "enrol_peak_mb": 3.509699821472168,
+        "score_peak_mb": 0.7677268981933594,
+        "reference_mb": 2.296875
+      },
+      "stress": {}
+    },
+    {
+      "method": "winclip+zeroshot",
+      "category": "chewinggum",
+      "k": 1,
+      "draw": 0,
+      "metrics": {
+        "I-AUROC": 0.9126,
+        "P-AUROC": 0.9747874162249159,
+        "PRO": 0.7848656443064396,
+        "pixel-AP": 0.5207516147441347,
+        "F1-max": 0.8820512820512821,
+        "recall@FPR<=0.1": 0.8,
+        "threshold": 0.64044189453125,
+        "I-AUROC(top1%)": 0.9324,
+        "recall@tau": 0.8,
+        "FPR@tau": 0.14
+      },
+      "enrol_ms": 0.95354099994438,
+      "score_ms_per_image": 1.0595628000070672,
+      "extract_ms_per_image": 192.4590509239745,
+      "latency_ms": 193.51861372398156,
+      "method_parameters": {
+        "language_weight": 1.0,
+        "language_dim": 512,
+        "n_visual_blocks": 2,
+        "temperature": 100.0,
+        "seed": 1089654714,
+        "augment": 0
+      },
+      "support": {
+        "k": 1,
+        "draw": 0,
+        "seed": 1089654714,
+        "mode": "uniform",
+        "held_out_group": null,
+        "image_ids": [
+          "chewinggum/train/good/015"
+        ],
+        "contaminated_ids": []
+      },
+      "decision": {
+        "threshold": 0.635222852230072,
+        "fpr_budget": 0.1,
+        "n_validation": 20,
+        "pixel_threshold": 0.5064376083016398,
+        "low": 0.07897965610027313,
+        "meets_target": false
+      },
+      "memory": {
+        "enrol_peak_mb": 3.509699821472168,
+        "score_peak_mb": 0.7677268981933594,
+        "reference_mb": 2.296875
+      },
+      "stress": {}
+    },
+    {
+      "method": "winclip+zeroshot",
+      "category": "fryum",
+      "k": 1,
+      "draw": 0,
+      "metrics": {
+        "I-AUROC": 0.8516,
+        "P-AUROC": 0.707215605699584,
+        "PRO": 0.6086467949966837,
+        "pixel-AP": 0.1345879596321091,
+        "F1-max": 0.8454545454545456,
+        "recall@FPR<=0.1": 0.61,
+        "threshold": 0.6850683689117432,
+        "I-AUROC(top1%)": 0.854,
+        "recall@tau": 0.5,
+        "FPR@tau": 0.0
+      },
+      "enrol_ms": 2.2363749994838145,
+      "score_ms_per_image": 1.1299864266341804,
+      "extract_ms_per_image": 142.94991276608138,
+      "latency_ms": 144.07989919271557,
+      "method_parameters": {
+        "language_weight": 1.0,
+        "language_dim": 512,
+        "n_visual_blocks": 2,
+        "temperature": 100.0,
+        "seed": 1057413565,
+        "augment": 0
+      },
+      "support": {
+        "k": 1,
+        "draw": 0,
+        "seed": 1057413565,
+        "mode": "uniform",
+        "held_out_group": null,
+        "image_ids": [
+          "fryum/train/good/068"
+        ],
+        "contaminated_ids": []
+      },
+      "decision": {
+        "threshold": 0.7209393978118896,
+        "fpr_budget": 0.1,
+        "n_validation": 20,
+        "pixel_threshold": 0.5627410760521891,
+        "low": 0.11146639287471771,
+        "meets_target": false
+      },
+      "memory": {
+        "enrol_peak_mb": 3.509699821472168,
+        "score_peak_mb": 0.7677268981933594,
+        "reference_mb": 2.296875
+      },
+      "stress": {}
+    },
+    {
+      "method": "winclip+zeroshot",
+      "category": "macaroni1",
+      "k": 1,
+      "draw": 0,
+      "metrics": {
+        "I-AUROC": 0.7719,
+        "P-AUROC": 0.9382988266908181,
+        "PRO": 0.7345901809553855,
+        "pixel-AP": 0.08524513190890359,
+        "F1-max": 0.7443946188340806,
+        "recall@FPR<=0.1": 0.39,
+        "threshold": 0.8619819283485413,
+        "I-AUROC(top1%)": 0.7836,
+        "recall@tau": 0.64,
+        "FPR@tau": 0.23
+      },
+      "enrol_ms": 1.647708999371389,
+      "score_ms_per_image": 1.0287845899756576,
+      "extract_ms_per_image": 164.49928393212264,
+      "latency_ms": 165.5280685220983,
+      "method_parameters": {
+        "language_weight": 1.0,
+        "language_dim": 512,
+        "n_visual_blocks": 2,
+        "temperature": 100.0,
+        "seed": 720423108,
+        "augment": 0
+      },
+      "support": {
+        "k": 1,
+        "draw": 0,
+        "seed": 720423108,
+        "mode": "uniform",
+        "held_out_group": null,
+        "image_ids": [
+          "macaroni1/train/good/0926"
+        ],
+        "contaminated_ids": []
+      },
+      "decision": {
+        "threshold": 0.825748860836029,
+        "fpr_budget": 0.1,
+        "n_validation": 20,
+        "pixel_threshold": 0.696788285970688,
+        "low": 0.06326901912689209,
+        "meets_target": false
+      },
+      "memory": {
+        "enrol_peak_mb": 3.509699821472168,
+        "score_peak_mb": 0.7677268981933594,
+        "reference_mb": 2.296875
+      },
+      "stress": {}
+    },
+    {
+      "method": "winclip+zeroshot",
+      "category": "macaroni2",
+      "k": 1,
+      "draw": 0,
+      "metrics": {
+        "I-AUROC": 0.4466,
+        "P-AUROC": 0.8698994023609834,
+        "PRO": 0.4695397372725711,
+        "pixel-AP": 0.0040256434071453545,
+        "F1-max": 0.6666666666666667,
+        "recall@FPR<=0.1": 0.05,
+        "threshold": 0.9809248447418213,
+        "I-AUROC(top1%)": 0.4404,
+        "recall@tau": 0.13,
+        "FPR@tau": 0.24
+      },
+      "enrol_ms": 1.0338749998481944,
+      "score_ms_per_image": 0.7592487299825734,
+      "extract_ms_per_image": 140.53020361991324,
+      "latency_ms": 141.2894523498958,
+      "method_parameters": {
+        "language_weight": 1.0,
+        "language_dim": 512,
+        "n_visual_blocks": 2,
+        "temperature": 100.0,
+        "seed": 720423108,
+        "augment": 0
+      },
+      "support": {
+        "k": 1,
+        "draw": 0,
+        "seed": 720423108,
+        "mode": "uniform",
+        "held_out_group": null,
+        "image_ids": [
+          "macaroni2/train/good/0926"
+        ],
+        "contaminated_ids": []
+      },
+      "decision": {
+        "threshold": 0.9680996537208557,
+        "fpr_budget": 0.1,
+        "n_validation": 20,
+        "pixel_threshold": 0.8801829457283021,
+        "low": 0.08516062796115875,
+        "meets_target": false
+      },
+      "memory": {
+        "enrol_peak_mb": 3.509699821472168,
+        "score_peak_mb": 0.7677268981933594,
+        "reference_mb": 2.296875
+      },
+      "stress": {}
+    },
+    {
+      "method": "winclip+zeroshot",
+      "category": "pcb1",
+      "k": 1,
+      "draw": 0,
+      "metrics": {
+        "I-AUROC": 0.6314,
+        "P-AUROC": 0.7757943040223726,
+        "PRO": 0.3812336354572038,
+        "pixel-AP": 0.1283151673655476,
+        "F1-max": 0.6666666666666666,
+        "recall@FPR<=0.1": 0.35,
+        "threshold": 0.7853246331214905,
+        "I-AUROC(top1%)": 0.6148,
+        "recall@tau": 0.34,
+        "FPR@tau": 0.08
+      },
+      "enrol_ms": 1.5657909998481045,
+      "score_ms_per_image": 0.7401643250022971,
+      "extract_ms_per_image": 144.20143909955272,
+      "latency_ms": 144.941603424555,
+      "method_parameters": {
+        "language_weight": 1.0,
+        "language_dim": 512,
+        "n_visual_blocks": 2,
+        "temperature": 100.0,
+        "seed": 2062535367,
+        "augment": 0
+      },
+      "support": {
+        "k": 1,
+        "draw": 0,
+        "seed": 2062535367,
+        "mode": "uniform",
+        "held_out_group": null,
+        "image_ids": [
+          "pcb1/train/good/0570"
+        ],
+        "contaminated_ids": []
+      },
+      "decision": {
+        "threshold": 0.7893208861351013,
+        "fpr_budget": 0.1,
+        "n_validation": 20,
+        "pixel_threshold": 0.6883984652161599,
+        "low": 0.20104172825813293,
+        "meets_target": false
+      },
+      "memory": {
+        "enrol_peak_mb": 3.509699821472168,
+        "score_peak_mb": 0.7677268981933594,
+        "reference_mb": 2.296875
+      },
+      "stress": {}
+    },
+    {
+      "method": "winclip+zeroshot",
+      "category": "pcb2",
+      "k": 1,
+      "draw": 0,
+      "metrics": {
+        "I-AUROC": 0.6974,
+        "P-AUROC": 0.6853104639027366,
+        "PRO": 0.3892411068646201,
+        "pixel-AP": 0.029479568932997913,
+        "F1-max": 0.6986899563318777,
+        "recall@FPR<=0.1": 0.33,
+        "threshold": 0.8836140036582947,
+        "I-AUROC(top1%)": 0.7197,
+        "recall@tau": 0.46,
+        "FPR@tau": 0.22
+      },
+      "enrol_ms": 1.7841669996414566,
+      "score_ms_per_image": 3.1274058549433903,
+      "extract_ms_per_image": 376.6794375927625,
+      "latency_ms": 379.8068434477059,
+      "method_parameters": {
+        "language_weight": 1.0,
+        "language_dim": 512,
+        "n_visual_blocks": 2,
+        "temperature": 100.0,
+        "seed": 2079312583,
+        "augment": 0
+      },
+      "support": {
+        "k": 1,
+        "draw": 0,
+        "seed": 2079312583,
+        "mode": "uniform",
+        "held_out_group": null,
+        "image_ids": [
+          "pcb2/train/good/0118"
+        ],
+        "contaminated_ids": []
+      },
+      "decision": {
+        "threshold": 0.858184278011322,
+        "fpr_budget": 0.1,
+        "n_validation": 20,
+        "pixel_threshold": 0.7412953978776933,
+        "low": 0.18176870048046112,
+        "meets_target": false
+      },
+      "memory": {
+        "enrol_peak_mb": 3.509699821472168,
+        "score_peak_mb": 0.7677268981933594,
+        "reference_mb": 2.296875
+      },
+      "stress": {}
+    },
+    {
+      "method": "winclip+zeroshot",
+      "category": "pcb3",
+      "k": 1,
+      "draw": 0,
+      "metrics": {
+        "I-AUROC": 0.6378217821782178,
+        "P-AUROC": 0.7656467240093996,
+        "PRO": 0.5070107124923355,
+        "pixel-AP": 0.022259674045841758,
+        "F1-max": 0.6716981132075471,
+        "recall@FPR<=0.1": 0.28,
+        "threshold": 0.8507218956947327,
+        "I-AUROC(top1%)": 0.67,
+        "recall@tau": 0.34,
+        "FPR@tau": 0.1782178217821782
+      },
+      "enrol_ms": 2.1372920000430895,
+      "score_ms_per_image": 1.5192008855655923,
+      "extract_ms_per_image": 277.62189508107974,
+      "latency_ms": 279.1410959666453,
+      "method_parameters": {
+        "language_weight": 1.0,
+        "language_dim": 512,
+        "n_visual_blocks": 2,
+        "temperature": 100.0,
+        "seed": 2096089799,
+        "augment": 0
+      },
+      "support": {
+        "k": 1,
+        "draw": 0,
+        "seed": 2096089799,
+        "mode": "uniform",
+        "held_out_group": null,
+        "image_ids": [
+          "pcb3/train/good/0638"
+        ],
+        "contaminated_ids": []
+      },
+      "decision": {
+        "threshold": 0.8344302773475647,
+        "fpr_budget": 0.1,
+        "n_validation": 20,
+        "pixel_threshold": 0.722415132522583,
+        "low": 0.10193628817796707,
+        "meets_target": false
+      },
+      "memory": {
+        "enrol_peak_mb": 3.509699821472168,
+        "score_peak_mb": 0.7677268981933594,
+        "reference_mb": 2.296875
+      },
+      "stress": {}
+    },
+    {
+      "method": "winclip+zeroshot",
+      "category": "pcb4",
+      "k": 1,
+      "draw": 0,
+      "metrics": {
+        "I-AUROC": 0.8643564356435643,
+        "P-AUROC": 0.8609019076356769,
+        "PRO": 0.6662150492569933,
+        "pixel-AP": 0.17736524423401018,
+        "F1-max": 0.8043478260869565,
+        "recall@FPR<=0.1": 0.74,
+        "threshold": 0.8823680877685547,
+        "I-AUROC(top1%)": 0.878019801980198,
+        "recall@tau": 0.77,
+        "FPR@tau": 0.1782178217821782
+      },
+      "enrol_ms": 3.7602920001518214,
+      "score_ms_per_image": 1.6496088357996823,
+      "extract_ms_per_image": 272.25702552702904,
+      "latency_ms": 273.9066343628287,
+      "method_parameters": {
+        "language_weight": 1.0,
+        "language_dim": 512,
+        "n_visual_blocks": 2,
+        "temperature": 100.0,
+        "seed": 2112867015,
+        "augment": 0
+      },
+      "support": {
+        "k": 1,
+        "draw": 0,
+        "seed": 2112867015,
+        "mode": "uniform",
+        "held_out_group": null,
+        "image_ids": [
+          "pcb4/train/good/0913"
+        ],
+        "contaminated_ids": []
+      },
+      "decision": {
+        "threshold": 0.8724275827407837,
+        "fpr_budget": 0.1,
+        "n_validation": 20,
+        "pixel_threshold": 0.7795390164852145,
+        "low": 0.1661577820777893,
+        "meets_target": false
+      },
+      "memory": {
+        "enrol_peak_mb": 3.509699821472168,
+        "score_peak_mb": 0.7677268981933594,
+        "reference_mb": 2.296875
+      },
+      "stress": {}
+    },
+    {
+      "method": "winclip+zeroshot",
+      "category": "pipe_fryum",
+      "k": 1,
+      "draw": 0,
+      "metrics": {
+        "I-AUROC": 0.7448,
+        "P-AUROC": 0.7958966089837418,
+        "PRO": 0.8567316141394826,
+        "pixel-AP": 0.0697639972871522,
+        "F1-max": 0.8189655172413793,
+        "recall@FPR<=0.1": 0.47,
+        "threshold": 0.7058827877044678,
+        "I-AUROC(top1%)": 0.7798,
+        "recall@tau": 0.65,
+        "FPR@tau": 0.32
+      },
+      "enrol_ms": 1.1976249998042476,
+      "score_ms_per_image": 1.6532477666441991,
+      "extract_ms_per_image": 273.7349756315785,
+      "latency_ms": 275.3882233982227,
+      "method_parameters": {
+        "language_weight": 1.0,
+        "language_dim": 512,
+        "n_visual_blocks": 2,
+        "temperature": 100.0,
+        "seed": 788385991,
+        "augment": 0
+      },
+      "support": {
+        "k": 1,
+        "draw": 0,
+        "seed": 788385991,
+        "mode": "uniform",
+        "held_out_group": null,
+        "image_ids": [
+          "pipe_fryum/train/good/293"
+        ],
+        "contaminated_ids": []
+      },
+      "decision": {
+        "threshold": 0.6408673524856567,
+        "fpr_budget": 0.1,
+        "n_validation": 20,
+        "pixel_threshold": 0.5285679548978808,
+        "low": 0.0579804927110672,
+        "meets_target": false
+      },
+      "memory": {
+        "enrol_peak_mb": 3.509699821472168,
+        "score_peak_mb": 0.7677268981933594,
+        "reference_mb": 2.296875
+      },
+      "stress": {}
+    }
+  ]
+}

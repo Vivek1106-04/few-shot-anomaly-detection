@@ -1,0 +1,6 @@
+          method     category     k        I-AUROC       P-AUROC           PROrec@tau  ms/img
+  winclip+visual       bottle     4   0.998+-0.000   0.981+-0.000   0.931+-0.000   0.984    39.7
+  winclip+visual        screw     4   0.711+-0.000   0.948+-0.000   0.786+-0.000   0.454    45.9
+  winclip+visual       carpet     4   0.993+-0.000   0.993+-0.000   0.956+-0.000   1.000    45.4
+
+Wrote output/task6/latency_visual.json (3 runs)

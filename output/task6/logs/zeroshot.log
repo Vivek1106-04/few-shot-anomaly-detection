@@ -1,0 +1,20 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+          method     category     k        I-AUROC       P-AUROC           PROrec@tau  ms/img
+winclip+zeroshot       bottle     1   0.902+-0.000   0.829+-0.000   0.714+-0.000   0.794   399.1
+winclip+zeroshot        cable     1   0.548+-0.000   0.658+-0.000   0.411+-0.000   0.163   295.7
+winclip+zeroshot      capsule     1   0.563+-0.000   0.735+-0.000   0.611+-0.000   0.229   232.7
+winclip+zeroshot       carpet     1   0.877+-0.000   0.878+-0.000   0.750+-0.000   0.764   294.0
+winclip+zeroshot         grid     1   0.932+-0.000   0.874+-0.000   0.747+-0.000   0.965   225.5
+winclip+zeroshot     hazelnut     1   0.784+-0.000   0.928+-0.000   0.626+-0.000   0.614   191.8
+winclip+zeroshot      leather     1   0.975+-0.000   0.955+-0.000   0.939+-0.000   0.935   182.2
+winclip+zeroshot    metal_nut     1   0.695+-0.000   0.667+-0.000   0.503+-0.000   0.441   213.4
+winclip+zeroshot         pill     1   0.630+-0.000   0.569+-0.000   0.583+-0.000   0.475   241.4
+winclip+zeroshot        screw     1   0.725+-0.000   0.963+-0.000   0.831+-0.000   0.345   206.9
+winclip+zeroshot         tile     1   0.958+-0.000   0.834+-0.000   0.653+-0.000   0.857   241.2
+winclip+zeroshot   toothbrush     1   0.481+-0.000   0.712+-0.000   0.520+-0.000   0.367   277.9
+winclip+zeroshot   transistor     1   0.647+-0.000   0.600+-0.000   0.403+-0.000   0.400   230.8
+winclip+zeroshot         wood     1   0.950+-0.000   0.905+-0.000   0.802+-0.000   0.967   240.2
+winclip+zeroshot       zipper     1   0.834+-0.000   0.849+-0.000   0.681+-0.000   0.748   230.2
+
+Wrote output/task6/zeroshot.json (15 runs)
