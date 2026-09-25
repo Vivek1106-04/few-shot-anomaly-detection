@@ -6,13 +6,10 @@ Detect and localise manufacturing defects from **normal images only** (unsupervi
 one-class) using **only a handful of reference images per product** (few-shot, k = 1…16).
 Output is an image-level anomaly score plus a pixel-level defect heat-map.
 
-Scope and success criteria: [`SPEC.md`](SPEC.md).
-
 ## Layout
 
 ```
 project/
-  SPEC.md            scope and success criteria
   README.md          this file
   src/
     config/          run configuration (YAML) + schema with validation
