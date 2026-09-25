@@ -6,29 +6,13 @@ Detect and localise manufacturing defects from **normal images only** (unsupervi
 one-class) using **only a handful of reference images per product** (few-shot, k = 1…16).
 Output is an image-level anomaly score plus a pixel-level defect heat-map.
 
-Scope, success criteria and the running weekly log: [`SPEC.md`](SPEC.md).
-
-## Weekly reports
-
-Weekly tasks are assigned by the instructor; each has its own report.
-
-| Week | Task | Report |
-|---|---|---|
-| 1 | Problem definition & project write-up | week01-problem-definition.md |
-| 2 | Literature survey & research gap identification | week02-literature-survey.md |
-| 3 | System architecture / flowchart & proposed methodology | week03-architecture-methodology.md |
-| 4 | Implementation Part 1 — dataset, pre-processing, ~25% of the methodology | week04-implementation-part1.md |
-| 5 | Implementation Part 2 — backbone, PatchCore, PaDiM, experiment runner, ~50% | week05-implementation-part2.md |
-| 6 | Implementation Part 3 — S7 decision, WinCLIP + CLIP backbone, augmentation, prototype demo, ~75% | week06-implementation-part3.md |
-| 7 | Implementation Part 4 — S11 stress tests, failure catalogue, ceiling, VisA; final report + source, 100% | week07-implementation-part4.md |
-
-Reports are submitted to the LMS and are not part of this repository; the compiled set becomes the final report.
+Scope and success criteria: [`SPEC.md`](SPEC.md).
 
 ## Layout
 
 ```
 project/
-  SPEC.md            scope, success criteria, weekly log
+  SPEC.md            scope and success criteria
   README.md          this file
   src/
     config/          run configuration (YAML) + schema with validation
@@ -72,7 +56,7 @@ Datasets are not in the repository (12 GB). Extract them under `data/`:
 - VisA -> `data/visa/` (`VisA_20220922.tar` from the amazon-visual-anomaly S3 bucket)
 
 Model weights (WRN-50-2 from torchvision, CLIP ViT-B/16 via open_clip) download on first
-use. `output/` holds every result file and figure the reports quote.
+use. `output/` holds every result file and figure produced by the experiments.
 
 ## Running
 
